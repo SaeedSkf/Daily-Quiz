@@ -1,5 +1,6 @@
 import Foundation
 import SwiftData
+import CommonCrypto
 
 // Protocol defining Quiz data source operations
 protocol QuizDataSource {
@@ -119,7 +120,7 @@ class SwiftDataQuizDataSource: QuizDataSource {
         
         // Only preload if no questions exist
         guard existingQuestions == 0 else {
-            print("Questions already exist, skipping preload.")
+            print("Questions already exist, skipping preload. \(existingQuestions)")
             // Check if user stats exist, create if not
             try await ensureUserStatsExist(context: context)
             return
@@ -135,12 +136,43 @@ class SwiftDataQuizDataSource: QuizDataSource {
         let data = try Data(contentsOf: url)
         let questionsJSON = try JSONDecoder().decode([QuestionJSON].self, from: data)
         
+        var questionsAdded = 0
+        
         for qJSON in questionsJSON {
-            guard let quizType = QuizType(rawValue: qJSON.type),
-                  let stage = MotherhoodStage(rawValue: qJSON.stage),
-                  let questionUUID = UUID(uuidString: qJSON.id) else {
-                print("Skipping invalid question data: \(qJSON.id)")
+            guard let quizType = QuizType(rawValue: qJSON.type) else {
+                print("Skipping invalid question data (invalid type): \(qJSON.id)")
                 continue
+            }
+            
+            // Convert stage string to proper MotherhoodStage
+            let stage: MotherhoodStage
+            switch qJSON.stage.lowercased() {
+            case "ttc":
+                stage = .ttc
+            case "pregnant":
+                stage = .pregnant
+            case "postpartum":
+                stage = .postpartum
+            default:
+                print("Skipping invalid question data (invalid stage): \(qJSON.id)")
+                continue
+            }
+            
+            let questionUUID = UUID.deterministic(from: qJSON.id)
+            
+            var answers: [Answer] = []
+            
+            for (_, aJSON) in qJSON.answers.enumerated() {
+                let answerUUID = UUID.deterministic(from: aJSON.id)
+                
+                let answer = Answer(
+                    id: answerUUID,
+                    text: aJSON.text,
+                    isCorrect: aJSON.isCorrect ?? false,
+                    boolValue: aJSON.boolValue ?? false,
+                    ratingValue: aJSON.ratingValue ?? 0
+                )
+                answers.append(answer)
             }
             
             let question = Question(
@@ -149,37 +181,22 @@ class SwiftDataQuizDataSource: QuizDataSource {
                 type: quizType,
                 stage: stage,
                 explanation: qJSON.explanation,
-                relatedFeature: qJSON.relatedFeature,
-                maxRating: qJSON.maxRating ?? 5 // Default max rating
+                relatedFeature: qJSON.relatedFeature
             )
             
-            var answers: [Answer] = []
-            for aJSON in qJSON.answers {
-                guard let answerUUID = UUID(uuidString: aJSON.id) else {
-                     print("Skipping invalid answer data for question: \(qJSON.id)")
-                     continue
-                }
-                let answer = Answer(
-                    id: answerUUID,
-                    text: aJSON.text,
-                    isCorrect: aJSON.isCorrect ?? false,
-                    boolValue: aJSON.boolValue,
-                    ratingValue: aJSON.ratingValue
-                )
-                answer.question = question
-                answers.append(answer)
-            }
-            
+            // Set answers after creation
             question.answers = answers
+            
             context.insert(question)
             answers.forEach { context.insert($0) }
+            questionsAdded += 1
         }
         
         // Create initial user stats if they don't exist
         try await ensureUserStatsExist(context: context)
         
         try context.save()
-        print("Successfully preloaded \(questionsJSON.count) questions.")
+        print("Successfully preloaded \(questionsAdded) questions.")
     }
     
     // Helper to ensure UserStats exist
@@ -193,5 +210,33 @@ class SwiftDataQuizDataSource: QuizDataSource {
             context.insert(stats)
             // No need to save here, will be saved after question preloading or if called separately
         }
+    }
+}
+
+// Helper extension to create deterministic UUIDs from strings
+extension UUID {
+    static func deterministic(from string: String) -> UUID {
+        // Convert string to data
+        let data = string.data(using: .utf8)!
+        
+        // Create SHA1 hash of the data
+        var digest = [UInt8](repeating: 0, count: Int(CC_SHA1_DIGEST_LENGTH))
+        data.withUnsafeBytes {
+            _ = CC_SHA1($0.baseAddress, CC_LONG(data.count), &digest)
+        }
+        
+        // Set the version bits to UUID v5 (SHA1-based)
+        digest[6] = (digest[6] & 0x0F) | 0x50 // Version 5
+        digest[8] = (digest[8] & 0x3F) | 0x80 // Variant 1
+        
+        // Create a UUID from the digest
+        let uuid = UUID(uuid: (
+            digest[0], digest[1], digest[2], digest[3],
+            digest[4], digest[5], digest[6], digest[7],
+            digest[8], digest[9], digest[10], digest[11],
+            digest[12], digest[13], digest[14], digest[15]
+        ))
+        
+        return uuid
     }
 } 

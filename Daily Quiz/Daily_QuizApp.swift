@@ -7,6 +7,7 @@
 
 import SwiftUI
 import SwiftData
+import Swinject
 
 @main
 struct Daily_QuizApp: App {
@@ -27,12 +28,26 @@ struct Daily_QuizApp: App {
             fatalError("Could not create ModelContainer: \(error)")
         }
     }()
+    
+    init() {
+        _ = DependencyContainer.shared
+        
+        ModelContainer.shared = sharedModelContainer
+    }
 
     var body: some Scene {
         WindowGroup {
             ContentView()
                 .onAppear {
                     NotificationManager.shared.requestPermission { _ in }
+                    
+                    Task {
+                        do {
+                            try await DependencyContainer.shared.container.resolve(QuizRepository.self)!.preloadInitialQuizData()
+                        } catch {
+                            print("Error preloading data: \(error)")
+                        }
+                    }
                 }
         }
         .modelContainer(sharedModelContainer)

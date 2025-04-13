@@ -12,28 +12,7 @@ struct ContentView: View {
     @Environment(\.modelContext) private var modelContext
     
     var body: some View {
-        createQuizDashboardView()
-    }
-    
-    // Factory method to create QuizDashboardView with its dependencies
-    private func createQuizDashboardView() -> some View {
-        // Set up repository and data source
-        let dataSource = SwiftDataQuizDataSource(modelContainer: ModelContainer.shared)
-        let repository = QuizRepositoryImpl(dataSource: dataSource)
-        
-        // Create use cases
-        let checkDailyQuizAvailabilityUseCase = CheckDailyQuizAvailabilityUseCase(repository: repository)
-        let getUserStatsUseCase = GetUserStatsUseCase(repository: repository)
-        
-        // Create view model
-        let viewModel = QuizDashboardViewModel(
-            checkDailyQuizAvailabilityUseCase: checkDailyQuizAvailabilityUseCase,
-            getUserStatsUseCase: getUserStatsUseCase,
-            quizRepository: repository
-        )
-        
-        // Return view
-        return QuizDashboardView(viewModel: viewModel)
+        QuizDashboardView(viewModel: DependencyContainer.shared.makeQuizDashboardViewModel())
     }
 }
 

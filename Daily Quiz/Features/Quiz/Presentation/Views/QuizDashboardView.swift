@@ -88,7 +88,7 @@ struct QuizDashboardView: View {
                         .foregroundColor(.white)
                         .cornerRadius(10)
                     }
-                    .disabled(!viewModel.isQuizAvailable)
+//                    .disabled(!viewModel.isQuizAvailable)
                     .padding(.horizontal)
                     
                     if !viewModel.isQuizAvailable {
@@ -102,8 +102,10 @@ struct QuizDashboardView: View {
             }
             .padding(.vertical)
             .navigationDestination(isPresented: $showQuiz) {
-                // TODO: We'll implement the factory method later
-                QuizView(viewModel: createQuizViewModel())
+                QuizView(viewModel: DependencyContainer.shared.makeQuizViewModel(
+                    stage: viewModel.selectedStage,
+                    quizType: viewModel.selectedQuizType
+                ))
             }
             .refreshable {
                 viewModel.refresh()
@@ -121,23 +123,6 @@ struct QuizDashboardView: View {
                 }
             }
         }
-    }
-    
-    // Factory method to create QuizViewModel - this would be handled by a dependency injection container in a real app
-    private func createQuizViewModel() -> QuizViewModel {
-        let repository = QuizRepositoryImpl(dataSource: SwiftDataQuizDataSource(modelContainer: ModelContainer.shared))
-        
-        let getQuizQuestionsUseCase = GetQuizQuestionsUseCase(repository: repository)
-        let getCrosswordCluesUseCase = GetCrosswordCluesUseCase(repository: repository)
-        let saveQuizResultUseCase = SaveQuizResultUseCase(repository: repository)
-        
-        return QuizViewModel(
-            getQuizQuestionsUseCase: getQuizQuestionsUseCase,
-            getCrosswordCluesUseCase: getCrosswordCluesUseCase,
-            saveQuizResultUseCase: saveQuizResultUseCase,
-            stage: viewModel.selectedStage,
-            quizType: viewModel.selectedQuizType
-        )
     }
 }
 
@@ -236,10 +221,14 @@ struct Badge: View {
 
 // Add a static property to ModelContainer for easy access
 extension ModelContainer {
-    static var shared: ModelContainer {
+    static var shared: ModelContainer = {
         guard let container = try? ModelContainer(for: Question.self, Answer.self, CrosswordClue.self, QuizResult.self, UserStats.self) else {
             fatalError("Failed to create model container")
         }
         return container
+    }() {
+        didSet {
+            // This is just a setter to allow changing the shared container
+        }
     }
 } 

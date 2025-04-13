@@ -75,8 +75,4 @@ struct ConfettiPiece: View {
                 }
             }
     }
-}
-
-#Preview {
-    ConfettiView()
 } 

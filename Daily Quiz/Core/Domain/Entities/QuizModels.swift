@@ -3,8 +3,10 @@ import SwiftData
 
 // Quiz Question Types
 enum QuizType: String, Codable {
-    case multipleChoice
-    case crossword
+    case singleSelect
+    case multipleSelect
+    case switchQuestion
+    case starRating
 }
 
 // Question Model
@@ -17,18 +19,20 @@ final class Question {
     var answers: [Answer] = []
     var explanation: String
     var relatedFeature: String?
+    var maxRating: Int = 5 // Used for star rating type questions
     
-    init(id: UUID = UUID(), text: String, type: QuizType, stage: MotherhoodStage, explanation: String, relatedFeature: String? = nil) {
+    init(id: UUID = UUID(), text: String, type: QuizType, stage: MotherhoodStage, explanation: String, relatedFeature: String? = nil, maxRating: Int = 5) {
         self.id = id
         self.text = text
         self.type = type.rawValue
         self.stage = stage.rawValue
         self.explanation = explanation
         self.relatedFeature = relatedFeature
+        self.maxRating = maxRating
     }
     
     var quizType: QuizType {
-        return QuizType(rawValue: type) ?? .multipleChoice
+        return QuizType(rawValue: type) ?? .singleSelect
     }
     
     var motherhoodStage: MotherhoodStage? {
@@ -43,39 +47,21 @@ final class Answer {
     var text: String
     var isCorrect: Bool
     
+    // Used for switch questions (true/false)
+    var boolValue: Bool?
+    
+    // Used for star rating
+    var ratingValue: Int?
+    
     // Relationship
     var question: Question?
     
-    init(id: UUID = UUID(), text: String, isCorrect: Bool = false) {
+    init(id: UUID = UUID(), text: String, isCorrect: Bool = false, boolValue: Bool? = nil, ratingValue: Int? = nil) {
         self.id = id
         self.text = text
         self.isCorrect = isCorrect
-    }
-}
-
-// Crossword Clue
-@Model
-final class CrosswordClue {
-    @Attribute(.unique) var id: UUID
-    var clue: String
-    var answer: String
-    var row: Int
-    var column: Int
-    var isHorizontal: Bool
-    var stage: String // MotherhoodStage as string
-    
-    init(id: UUID = UUID(), clue: String, answer: String, row: Int, column: Int, isHorizontal: Bool, stage: MotherhoodStage) {
-        self.id = id
-        self.clue = clue
-        self.answer = answer
-        self.row = row
-        self.column = column
-        self.isHorizontal = isHorizontal
-        self.stage = stage.rawValue
-    }
-    
-    var motherhoodStage: MotherhoodStage? {
-        return MotherhoodStage(rawValue: stage)
+        self.boolValue = boolValue
+        self.ratingValue = ratingValue
     }
 }
 

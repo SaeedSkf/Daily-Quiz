@@ -11,45 +11,42 @@ import Swinject
 
 @main
 struct Daily_QuizApp: App {
-    var sharedModelContainer: ModelContainer = {
-        let schema = Schema([
-            Item.self,
-            Question.self,
-            Answer.self,
-            CrosswordClue.self,
-            QuizResult.self,
-            UserStats.self
-        ])
-        let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
-
+    // Create the model container
+    var modelContainer: ModelContainer = {
         do {
-            return try ModelContainer(for: schema, configurations: [modelConfiguration])
+            return try ModelContainer(
+                for: Question.self, Answer.self, QuizResult.self, UserStats.self,
+                configurations: ModelConfiguration(isStoredInMemoryOnly: false)
+            )
         } catch {
             fatalError("Could not create ModelContainer: \(error)")
         }
     }()
     
+    // Create a dependency container that receives the model container
+    var dependencyContainer: DependencyContainer!
+    
     init() {
-        _ = DependencyContainer.shared
-        
-        ModelContainer.shared = sharedModelContainer
+        // Initialize dependency container with the model container
+        self.dependencyContainer = DependencyContainer(modelContainer: modelContainer)
     }
 
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(\.dependencyContainer, dependencyContainer)
                 .onAppear {
                     NotificationManager.shared.requestPermission { _ in }
                     
                     Task {
                         do {
-                            try await DependencyContainer.shared.container.resolve(QuizRepository.self)!.preloadInitialQuizData()
+                            try await dependencyContainer.container.resolve(QuizRepository.self)!.preloadInitialQuizData()
                         } catch {
                             print("Error preloading data: \(error)")
                         }
                     }
                 }
         }
-        .modelContainer(sharedModelContainer)
+        .modelContainer(modelContainer)
     }
 }

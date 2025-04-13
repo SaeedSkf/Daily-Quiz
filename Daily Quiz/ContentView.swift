@@ -10,13 +10,15 @@ import SwiftData
 
 struct ContentView: View {
     @Environment(\.modelContext) private var modelContext
+    @Environment(\.dependencyContainer) private var dependencyContainer
     
     var body: some View {
-        QuizDashboardView(viewModel: DependencyContainer.shared.makeQuizDashboardViewModel())
+        if let container = dependencyContainer {
+            QuizDashboardView(viewModel: container.makeQuizDashboardViewModel())
+        } else {
+            // Fallback if dependency container isn't available
+            Text("Initializing application...")
+                .font(.headline)
+        }
     }
-}
-
-#Preview {
-    ContentView()
-        .modelContainer(for: Item.self, inMemory: true)
 }

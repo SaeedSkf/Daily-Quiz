@@ -1,27 +1,46 @@
 import Foundation
 import Swinject
 import SwiftData
+import SwiftUI
+
+// MARK: - Environment Key for DependencyContainer
+struct DependencyContainerKey: EnvironmentKey {
+    static let defaultValue: DependencyContainer? = nil
+}
+
+extension EnvironmentValues {
+    var dependencyContainer: DependencyContainer? {
+        get { self[DependencyContainerKey.self] }
+        set { self[DependencyContainerKey.self] = newValue }
+    }
+}
+
+// Extension to easily get dependencies from the environment
+extension View {
+    func inject<T>(_ keyPath: KeyPath<DependencyContainer, T>) -> T? {
+        @Environment(\.dependencyContainer) var container
+        return container?[keyPath: keyPath]
+    }
+}
 
 // MARK: - DependencyContainer
 class DependencyContainer {
-    static let shared = DependencyContainer()
-    
     let container: Container
     
-    private init() {
-        container = Container()
-        registerDependencies()
+    init(modelContainer: ModelContainer) {
+        self.container = Container()
+        registerDependencies(with: modelContainer)
     }
     
-    private func registerDependencies() {
-        registerDataSources()
+    private func registerDependencies(with modelContainer: ModelContainer) {
+        registerDataSources(with: modelContainer)
         registerRepositories()
         registerUseCases()
     }
     
-    private func registerDataSources() {
+    private func registerDataSources(with modelContainer: ModelContainer) {
         container.register(ModelContainer.self) { _ in
-            return ModelContainer.shared
+            return modelContainer
         }.inObjectScope(.container)
         
         container.register(QuizDataSource.self) { resolver in
@@ -41,11 +60,6 @@ class DependencyContainer {
         container.register(GetQuizQuestionsUseCase.self) { resolver in
             let repository = resolver.resolve(QuizRepository.self)!
             return GetQuizQuestionsUseCase(repository: repository)
-        }
-        
-        container.register(GetCrosswordCluesUseCase.self) { resolver in
-            let repository = resolver.resolve(QuizRepository.self)!
-            return GetCrosswordCluesUseCase(repository: repository)
         }
         
         container.register(CheckDailyQuizAvailabilityUseCase.self) { resolver in
@@ -77,17 +91,14 @@ class DependencyContainer {
         )
     }
     
-    func makeQuizViewModel(stage: MotherhoodStage, quizType: QuizType) -> QuizViewModel {
+    func makeQuizViewModel(stage: MotherhoodStage) -> QuizViewModel {
         let getQuizQuestionsUseCase = container.resolve(GetQuizQuestionsUseCase.self)!
-        let getCrosswordCluesUseCase = container.resolve(GetCrosswordCluesUseCase.self)!
         let saveQuizResultUseCase = container.resolve(SaveQuizResultUseCase.self)!
         
         return QuizViewModel(
             getQuizQuestionsUseCase: getQuizQuestionsUseCase,
-            getCrosswordCluesUseCase: getCrosswordCluesUseCase,
             saveQuizResultUseCase: saveQuizResultUseCase,
-            stage: stage,
-            quizType: quizType
+            stage: stage
         )
     }
 } 

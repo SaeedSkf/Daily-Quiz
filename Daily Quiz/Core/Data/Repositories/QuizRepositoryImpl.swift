@@ -12,10 +12,6 @@ class QuizRepositoryImpl: QuizRepository {
         return try await dataSource.getQuestionsForStage(stage, quizType: quizType)
     }
     
-    func getCrosswordCluesForStage(_ stage: MotherhoodStage) async throws -> [CrosswordClue] {
-        return try await dataSource.getCrosswordCluesForStage(stage)
-    }
-    
     func saveQuizResult(_ result: QuizResult) async throws {
         try await dataSource.saveQuizResult(result)
     }

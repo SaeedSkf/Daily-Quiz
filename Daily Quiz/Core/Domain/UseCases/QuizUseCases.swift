@@ -4,7 +4,6 @@ import SwiftData
 // Protocol for Quiz Repository
 protocol QuizRepository {
     func getQuestionsForStage(_ stage: MotherhoodStage, quizType: QuizType) async throws -> [Question]
-    func getCrosswordCluesForStage(_ stage: MotherhoodStage) async throws -> [CrosswordClue]
     func saveQuizResult(_ result: QuizResult) async throws
     func updateUserStats(_ stats: UserStats) async throws
     func getUserStats() async throws -> UserStats?
@@ -22,19 +21,6 @@ class GetQuizQuestionsUseCase {
     
     func execute(stage: MotherhoodStage, quizType: QuizType) async throws -> [Question] {
         return try await repository.getQuestionsForStage(stage, quizType: quizType)
-    }
-}
-
-// Use Case: Get Crossword Clues
-class GetCrosswordCluesUseCase {
-    private let repository: QuizRepository
-    
-    init(repository: QuizRepository) {
-        self.repository = repository
-    }
-    
-    func execute(stage: MotherhoodStage) async throws -> [CrosswordClue] {
-        return try await repository.getCrosswordCluesForStage(stage)
     }
 }
 

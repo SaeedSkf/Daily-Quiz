@@ -2,8 +2,24 @@ import SwiftUI
 import SwiftData
 
 struct QuizDashboardView: View {
-    @StateObject var viewModel: QuizDashboardViewModel
+    @StateObject private var viewModel: QuizDashboardViewModel
     @State private var showQuiz = false
+    @Environment(\.dependencyContainer) private var dependencyContainer
+    
+    init(viewModel: QuizDashboardViewModel? = nil) {
+        // If a viewModel is provided, use it (useful for testing)
+        // Otherwise, create a stub viewModel that will load data when the container is available
+        if let providedViewModel = viewModel {
+            _viewModel = StateObject(wrappedValue: providedViewModel)
+        } else {
+            // Create with a stub repository - will be replaced with real data later
+            _viewModel = StateObject(wrappedValue: QuizDashboardViewModel(
+                checkDailyQuizAvailabilityUseCase: CheckDailyQuizAvailabilityUseCase(repository: StubQuizRepository()),
+                getUserStatsUseCase: GetUserStatsUseCase(repository: StubQuizRepository()),
+                quizRepository: StubQuizRepository()
+            ))
+        }
+    }
     
     var body: some View {
         NavigationStack {
@@ -58,19 +74,6 @@ struct QuizDashboardView: View {
                     }
                     .padding(.horizontal)
                     
-                    // Quiz Type Selection
-                    VStack(alignment: .leading, spacing: 12) {
-                        Text("Quiz Type")
-                            .font(.headline)
-                        
-                        Picker("Quiz Type", selection: $viewModel.selectedQuizType) {
-                            Text("Multiple Choice").tag(QuizType.multipleChoice)
-                            Text("Crossword").tag(QuizType.crossword)
-                        }
-                        .pickerStyle(.segmented)
-                    }
-                    .padding(.horizontal)
-                    
                     Spacer()
                     
                     // Start Button
@@ -102,16 +105,25 @@ struct QuizDashboardView: View {
             }
             .padding(.vertical)
             .navigationDestination(isPresented: $showQuiz) {
-                QuizView(viewModel: DependencyContainer.shared.makeQuizViewModel(
-                    stage: viewModel.selectedStage,
-                    quizType: viewModel.selectedQuizType
-                ))
+                if let container = dependencyContainer {
+                    QuizView(viewModel: container.makeQuizViewModel(
+                        stage: viewModel.selectedStage
+                    ))
+                }
             }
             .refreshable {
                 viewModel.refresh()
             }
             .onAppear {
-                viewModel.refresh()
+                // Instead of replacing the viewModel, just load real data when possible
+                if viewModel.isUsingStubRepository, let container = dependencyContainer {
+                    // Load data from the real repository without replacing the viewModel
+                    Task {
+                        await viewModel.loadDataFromRepository(container.container.resolve(QuizRepository.self)!)
+                    }
+                } else {
+                    viewModel.refresh()
+                }
             }
             .toolbar {
                 ToolbarItem(placement: .topBarTrailing) {
@@ -215,20 +227,6 @@ struct Badge: View {
         .background {
             Capsule()
                 .fill(Color(.tertiarySystemBackground))
-        }
-    }
-}
-
-// Add a static property to ModelContainer for easy access
-extension ModelContainer {
-    static var shared: ModelContainer = {
-        guard let container = try? ModelContainer(for: Question.self, Answer.self, CrosswordClue.self, QuizResult.self, UserStats.self) else {
-            fatalError("Failed to create model container")
-        }
-        return container
-    }() {
-        didSet {
-            // This is just a setter to allow changing the shared container
         }
     }
 } 

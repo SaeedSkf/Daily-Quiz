@@ -1,0 +1,1771 @@
+[
+  {
+    "id": "ttc-single-1",
+    "text": "What hormone surge triggers ovulation?",
+    "type": "singleSelect",
+    "stage": "ttc",
+    "explanation": "Luteinizing Hormone (LH) surge typically occurs 24-36 hours before ovulation and is what ovulation predictor kits measure.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "ttc-single-1-a", "text": "Estrogen", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "ttc-single-1-b", "text": "Progesterone", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "ttc-single-1-c", "text": "Luteinizing Hormone (LH)", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "ttc-single-1-d", "text": "Follicle-Stimulating Hormone (FSH)", "isCorrect": false, "boolValue": null, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "ttc-single-2",
+    "text": "What is the typical length of a menstrual cycle?",
+    "type": "singleSelect",
+    "stage": "ttc",
+    "explanation": "While cycles can vary, the average length is 28 days, counting from the first day of one period to the first day of the next.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "ttc-single-2-a", "text": "14 days", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "ttc-single-2-b", "text": "21 days", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "ttc-single-2-c", "text": "28 days", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "ttc-single-2-d", "text": "35 days", "isCorrect": false, "boolValue": null, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "ttc-single-3",
+    "text": "When is a woman most fertile during her cycle?",
+    "type": "singleSelect",
+    "stage": "ttc",
+    "explanation": "A woman is most fertile during the ovulation phase, which typically occurs around day 14 in a 28-day cycle.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "ttc-single-3-a", "text": "During menstruation", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "ttc-single-3-b", "text": "Right after menstruation", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "ttc-single-3-c", "text": "During ovulation", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "ttc-single-3-d", "text": "Right before menstruation", "isCorrect": false, "boolValue": null, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "ttc-single-4",
+    "text": "What is the average lifespan of an egg after ovulation?",
+    "type": "singleSelect",
+    "stage": "ttc",
+    "explanation": "Once released, an egg generally survives for only 12-24 hours, creating a limited window for fertilization.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "ttc-single-4-a", "text": "12-24 hours", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "ttc-single-4-b", "text": "2-3 days", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "ttc-single-4-c", "text": "5-7 days", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "ttc-single-4-d", "text": "Up to 10 days", "isCorrect": false, "boolValue": null, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "ttc-single-5",
+    "text": "How long can sperm survive in a woman's reproductive tract?",
+    "type": "singleSelect",
+    "stage": "ttc",
+    "explanation": "Healthy sperm can survive for up to 5 days in favorable conditions within the female reproductive tract.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "ttc-single-5-a", "text": "A few hours", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "ttc-single-5-b", "text": "1-2 days", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "ttc-single-5-c", "text": "3-5 days", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "ttc-single-5-d", "text": "7-10 days", "isCorrect": false, "boolValue": null, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "ttc-single-6",
+    "text": "What is the recommended daily intake of folic acid when trying to conceive?",
+    "type": "singleSelect",
+    "stage": "ttc",
+    "explanation": "It's recommended to take 400 micrograms of folic acid daily before conception and during early pregnancy to help prevent neural tube defects.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "ttc-single-6-a", "text": "100 micrograms", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "ttc-single-6-b", "text": "400 micrograms", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "ttc-single-6-c", "text": "800 micrograms", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "ttc-single-6-d", "text": "1500 micrograms", "isCorrect": false, "boolValue": null, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "ttc-single-7",
+    "text": "Which hormone is measured in an Anti-Müllerian Hormone (AMH) test?",
+    "type": "singleSelect",
+    "stage": "ttc",
+    "explanation": "The AMH test measures Anti-Müllerian Hormone levels, which can indicate a woman's ovarian reserve or egg count.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "ttc-single-7-a", "text": "Estrogen", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "ttc-single-7-b", "text": "Progesterone", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "ttc-single-7-c", "text": "Anti-Müllerian Hormone", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "ttc-single-7-d", "text": "Luteinizing Hormone", "isCorrect": false, "boolValue": null, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "ttc-single-8",
+    "text": "What is the medical term for difficulty conceiving after a year of trying?",
+    "type": "singleSelect",
+    "stage": "ttc",
+    "explanation": "Infertility is defined as the inability to conceive after 12 months of regular, unprotected intercourse (or 6 months if the woman is over 35).",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "ttc-single-8-a", "text": "Subfertility", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "ttc-single-8-b", "text": "Infertility", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "ttc-single-8-c", "text": "Sterility", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "ttc-single-8-d", "text": "Amenorrhea", "isCorrect": false, "boolValue": null, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "ttc-single-9",
+    "text": "What does BBT stand for in fertility tracking?",
+    "type": "singleSelect",
+    "stage": "ttc",
+    "explanation": "Basal Body Temperature (BBT) is your body's temperature at rest, which rises slightly after ovulation and can be tracked to identify fertility patterns.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "ttc-single-9-a", "text": "Best Birth Time", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "ttc-single-9-b", "text": "Body Balance Test", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "ttc-single-9-c", "text": "Basal Body Temperature", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "ttc-single-9-d", "text": "Blood Biomarker Test", "isCorrect": false, "boolValue": null, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "ttc-single-10",
+    "text": "What is the fertile window?",
+    "type": "singleSelect",
+    "stage": "ttc",
+    "explanation": "The fertile window is the period during which pregnancy is possible, typically spanning from 5 days before ovulation to the day of ovulation.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "ttc-single-10-a", "text": "The entire menstrual cycle", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "ttc-single-10-b", "text": "The 5-6 days leading up to and including ovulation day", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "ttc-single-10-c", "text": "The week after your period ends", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "ttc-single-10-d", "text": "The days during menstruation", "isCorrect": false, "boolValue": null, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "ttc-multi-1",
+    "text": "Which lifestyle factors can positively impact fertility? (Select all that apply)",
+    "type": "multipleSelect",
+    "stage": "ttc",
+    "explanation": "Maintaining a healthy lifestyle through diet, exercise, stress management, and avoiding harmful substances can significantly improve fertility.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "ttc-multi-1-a", "text": "Balanced Diet", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "ttc-multi-1-b", "text": "Regular Moderate Exercise", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "ttc-multi-1-c", "text": "Smoking", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "ttc-multi-1-d", "text": "Stress Management", "isCorrect": true, "boolValue": null, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "ttc-multi-2",
+    "text": "Which of these are signs of ovulation? (Select all that apply)",
+    "type": "multipleSelect",
+    "stage": "ttc",
+    "explanation": "Tracking ovulation signs can help identify the fertile window. Changes in cervical mucus, body temperature, and mild pain are common indicators.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "ttc-multi-2-a", "text": "Clear, stretchy cervical mucus", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "ttc-multi-2-b", "text": "Slight rise in basal body temperature", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "ttc-multi-2-c", "text": "Mittelschmerz (mild abdominal pain)", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "ttc-multi-2-d", "text": "Heavy menstrual bleeding", "isCorrect": false, "boolValue": null, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "ttc-multi-3",
+    "text": "Which vitamins and supplements can support fertility? (Select all that apply)",
+    "type": "multipleSelect",
+    "stage": "ttc",
+    "explanation": "Certain nutrients play important roles in reproductive health and can improve fertility when taken as part of a balanced diet or supplementation.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "ttc-multi-3-a", "text": "Folic Acid", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "ttc-multi-3-b", "text": "Vitamin D", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "ttc-multi-3-c", "text": "CoQ10", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "ttc-multi-3-d", "text": "Vitamin C", "isCorrect": true, "boolValue": null, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "ttc-multi-4",
+    "text": "Which factors can negatively impact male fertility? (Select all that apply)",
+    "type": "multipleSelect",
+    "stage": "ttc",
+    "explanation": "Male fertility can be affected by various lifestyle factors and health conditions that impact sperm quality and quantity.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "ttc-multi-4-a", "text": "Smoking", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "ttc-multi-4-b", "text": "Excessive alcohol consumption", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "ttc-multi-4-c", "text": "High scrotal temperature", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "ttc-multi-4-d", "text": "Regular moderate exercise", "isCorrect": false, "boolValue": null, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "ttc-multi-5",
+    "text": "Which medical conditions can impact female fertility? (Select all that apply)",
+    "type": "multipleSelect",
+    "stage": "ttc",
+    "explanation": "Several medical conditions can affect a woman's ability to conceive by disrupting hormone balance, ovulation, or reproductive organ function.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "ttc-multi-5-a", "text": "Polycystic Ovary Syndrome (PCOS)", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "ttc-multi-5-b", "text": "Endometriosis", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "ttc-multi-5-c", "text": "Thyroid disorders", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "ttc-multi-5-d", "text": "Blocked fallopian tubes", "isCorrect": true, "boolValue": null, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "ttc-multi-6",
+    "text": "Which methods can help track ovulation? (Select all that apply)",
+    "type": "multipleSelect",
+    "stage": "ttc",
+    "explanation": "Multiple methods can be used to predict or confirm ovulation, helping to identify the fertile window for conception.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "ttc-multi-6-a", "text": "Basal body temperature charting", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "ttc-multi-6-b", "text": "Ovulation predictor kits", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "ttc-multi-6-c", "text": "Tracking cervical mucus changes", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "ttc-multi-6-d", "text": "Fertility monitoring apps", "isCorrect": true, "boolValue": null, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "ttc-multi-7",
+    "text": "Which of these are common fertility treatments? (Select all that apply)",
+    "type": "multipleSelect",
+    "stage": "ttc",
+    "explanation": "Various medical treatments can help individuals or couples experiencing fertility issues to conceive, ranging from medication to more advanced procedures.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "ttc-multi-7-a", "text": "Clomiphene citrate (Clomid)", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "ttc-multi-7-b", "text": "Intrauterine insemination (IUI)", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "ttc-multi-7-c", "text": "In vitro fertilization (IVF)", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "ttc-multi-7-d", "text": "Hormone therapy", "isCorrect": true, "boolValue": null, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "ttc-multi-8",
+    "text": "Which of these can help improve cervical mucus quality? (Select all that apply)",
+    "type": "multipleSelect",
+    "stage": "ttc",
+    "explanation": "Fertile cervical mucus helps sperm survive and travel to the egg. Several approaches can potentially improve its quality and quantity.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "ttc-multi-8-a", "text": "Staying well-hydrated", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "ttc-multi-8-b", "text": "Taking evening primrose oil", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "ttc-multi-8-c", "text": "Using water-based lubricants", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "ttc-multi-8-d", "text": "Consuming grapefruit juice", "isCorrect": true, "boolValue": null, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "ttc-multi-9",
+    "text": "Which factors determine a woman's egg quality? (Select all that apply)",
+    "type": "multipleSelect",
+    "stage": "ttc",
+    "explanation": "Egg quality, which affects fertility and embryo development, is influenced by both uncontrollable factors like age and potentially modifiable ones like lifestyle.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "ttc-multi-9-a", "text": "Age", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "ttc-multi-9-b", "text": "Diet and nutrition", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "ttc-multi-9-c", "text": "Exposure to toxins", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "ttc-multi-9-d", "text": "Genetics", "isCorrect": true, "boolValue": null, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "ttc-multi-10",
+    "text": "Which prenatal tests can be beneficial before trying to conceive? (Select all that apply)",
+    "type": "multipleSelect",
+    "stage": "ttc",
+    "explanation": "Preconception testing can identify potential health issues or genetic risks before pregnancy, allowing for early intervention or treatment.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "ttc-multi-10-a", "text": "Genetic carrier screening", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "ttc-multi-10-b", "text": "STI testing", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "ttc-multi-10-c", "text": "Blood type and Rh factor testing", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "ttc-multi-10-d", "text": "Rubella immunity check", "isCorrect": true, "boolValue": null, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "ttc-switch-1",
+    "text": "Does age significantly affect female fertility?",
+    "type": "switchQuestion",
+    "stage": "ttc",
+    "explanation": "Female fertility generally declines with age, particularly after 35. Egg quality and quantity decrease over time, affecting chances of conception.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "ttc-switch-1-a", "text": "Yes", "isCorrect": true, "boolValue": true, "ratingValue": null },
+      { "id": "ttc-switch-1-b", "text": "No", "isCorrect": false, "boolValue": false, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "ttc-switch-2",
+    "text": "Is it true that stress can negatively impact fertility?",
+    "type": "switchQuestion",
+    "stage": "ttc",
+    "explanation": "Chronic stress can disrupt hormone balance and ovulation in women, and may affect sperm production in men.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "ttc-switch-2-a", "text": "Yes", "isCorrect": true, "boolValue": true, "ratingValue": null },
+      { "id": "ttc-switch-2-b", "text": "No", "isCorrect": false, "boolValue": false, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "ttc-switch-3",
+    "text": "Does being overweight or underweight affect fertility?",
+    "type": "switchQuestion",
+    "stage": "ttc",
+    "explanation": "Body weight extremes can disrupt hormone balance and ovulation. Both obesity and being significantly underweight can reduce fertility.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "ttc-switch-3-a", "text": "Yes", "isCorrect": true, "boolValue": true, "ratingValue": null },
+      { "id": "ttc-switch-3-b", "text": "No", "isCorrect": false, "boolValue": false, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "ttc-switch-4",
+    "text": "Can male fertility decline with age?",
+    "type": "switchQuestion",
+    "stage": "ttc",
+    "explanation": "While men can produce sperm throughout life, sperm quality decreases with age, potentially affecting fertility and increasing genetic risks.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "ttc-switch-4-a", "text": "Yes", "isCorrect": true, "boolValue": true, "ratingValue": null },
+      { "id": "ttc-switch-4-b", "text": "No", "isCorrect": false, "boolValue": false, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "ttc-switch-5",
+    "text": "Should you stop taking birth control pills several months before trying to conceive?",
+    "type": "switchQuestion",
+    "stage": "ttc",
+    "explanation": "While fertility can return immediately after stopping hormonal birth control, waiting 2-3 months helps establish regular cycles and allows time to start prenatal vitamins.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "ttc-switch-5-a", "text": "Yes", "isCorrect": true, "boolValue": true, "ratingValue": null },
+      { "id": "ttc-switch-5-b", "text": "No", "isCorrect": false, "boolValue": false, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "ttc-switch-6",
+    "text": "Is it true that having sex daily increases chances of conception?",
+    "type": "switchQuestion",
+    "stage": "ttc",
+    "explanation": "Having sex every 1-2 days during the fertile window is optimal. Daily ejaculation may temporarily reduce sperm count in some men.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "ttc-switch-6-a", "text": "Yes", "isCorrect": false, "boolValue": true, "ratingValue": null },
+      { "id": "ttc-switch-6-b", "text": "No", "isCorrect": true, "boolValue": false, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "ttc-switch-7",
+    "text": "Does smoking affect fertility?",
+    "type": "switchQuestion",
+    "stage": "ttc",
+    "explanation": "Smoking reduces fertility in both men and women, damages eggs and sperm, and increases the risk of miscarriage.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "ttc-switch-7-a", "text": "Yes", "isCorrect": true, "boolValue": true, "ratingValue": null },
+      { "id": "ttc-switch-7-b", "text": "No", "isCorrect": false, "boolValue": false, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "ttc-switch-8",
+    "text": "Can lubricants affect fertility?",
+    "type": "switchQuestion",
+    "stage": "ttc",
+    "explanation": "Many commercial lubricants can impair sperm movement and survival. Fertility-friendly lubricants are recommended when trying to conceive.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "ttc-switch-8-a", "text": "Yes", "isCorrect": true, "boolValue": true, "ratingValue": null },
+      { "id": "ttc-switch-8-b", "text": "No", "isCorrect": false, "boolValue": false, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "ttc-switch-9",
+    "text": "Is it true that certain sexual positions increase chances of conception?",
+    "type": "switchQuestion",
+    "stage": "ttc",
+    "explanation": "No scientific evidence supports that one position is better than others, though positions that allow deeper penetration may help deliver sperm closer to the cervix.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "ttc-switch-9-a", "text": "Yes", "isCorrect": false, "boolValue": true, "ratingValue": null },
+      { "id": "ttc-switch-9-b", "text": "No", "isCorrect": true, "boolValue": false, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "ttc-switch-10",
+    "text": "Should men avoid hot baths and saunas when trying to conceive?",
+    "type": "switchQuestion",
+    "stage": "ttc",
+    "explanation": "Elevated scrotal temperatures can temporarily reduce sperm production and quality. Avoiding excessive heat exposure may benefit sperm health.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "ttc-switch-10-a", "text": "Yes", "isCorrect": true, "boolValue": true, "ratingValue": null },
+      { "id": "ttc-switch-10-b", "text": "No", "isCorrect": false, "boolValue": false, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "ttc-rating-1",
+    "text": "How important is tracking your cycle when trying to conceive?",
+    "type": "starRating",
+    "stage": "ttc",
+    "explanation": "Tracking your cycle helps identify your fertile window, significantly increasing chances of conception by timing intercourse appropriately.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "ttc-rating-1-a", "text": "Not important", "isCorrect": false, "ratingValue": 1, "boolValue": null },
+      { "id": "ttc-rating-1-b", "text": "Slightly important", "isCorrect": false, "ratingValue": 2, "boolValue": null },
+      { "id": "ttc-rating-1-c", "text": "Moderately important", "isCorrect": false, "ratingValue": 3, "boolValue": null },
+      { "id": "ttc-rating-1-d", "text": "Very important", "isCorrect": true, "ratingValue": 4, "boolValue": null },
+      { "id": "ttc-rating-1-e", "text": "Extremely important", "isCorrect": true, "ratingValue": 5, "boolValue": null }
+    ]
+  },
+  {
+    "id": "ttc-rating-2",
+    "text": "How important is maintaining a healthy weight for fertility?",
+    "type": "starRating",
+    "stage": "ttc",
+    "explanation": "Being significantly overweight or underweight can disrupt hormonal balance and ovulation, affecting fertility in both men and women.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "ttc-rating-2-a", "text": "Not important", "isCorrect": false, "ratingValue": 1, "boolValue": null },
+      { "id": "ttc-rating-2-b", "text": "Slightly important", "isCorrect": false, "ratingValue": 2, "boolValue": null },
+      { "id": "ttc-rating-2-c", "text": "Moderately important", "isCorrect": false, "ratingValue": 3, "boolValue": null },
+      { "id": "ttc-rating-2-d", "text": "Very important", "isCorrect": true, "ratingValue": 4, "boolValue": null },
+      { "id": "ttc-rating-2-e", "text": "Extremely important", "isCorrect": true, "ratingValue": 5, "boolValue": null }
+    ]
+  },
+  {
+    "id": "ttc-rating-3",
+    "text": "How important is taking folic acid when trying to conceive?",
+    "type": "starRating",
+    "stage": "ttc",
+    "explanation": "Folic acid is crucial for preventing neural tube defects in early pregnancy, often before a woman knows she's pregnant.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "ttc-rating-3-a", "text": "Not important", "isCorrect": false, "ratingValue": 1, "boolValue": null },
+      { "id": "ttc-rating-3-b", "text": "Slightly important", "isCorrect": false, "ratingValue": 2, "boolValue": null },
+      { "id": "ttc-rating-3-c", "text": "Moderately important", "isCorrect": false, "ratingValue": 3, "boolValue": null },
+      { "id": "ttc-rating-3-d", "text": "Very important", "isCorrect": false, "ratingValue": 4, "boolValue": null },
+      { "id": "ttc-rating-3-e", "text": "Extremely important", "isCorrect": true, "ratingValue": 5, "boolValue": null }
+    ]
+  },
+  {
+    "id": "ttc-rating-4",
+    "text": "How important is timing intercourse around ovulation for conception?",
+    "type": "starRating",
+    "stage": "ttc",
+    "explanation": "Timing intercourse during the fertile window (particularly 1-2 days before ovulation) significantly increases chances of conception.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "ttc-rating-4-a", "text": "Not important", "isCorrect": false, "ratingValue": 1, "boolValue": null },
+      { "id": "ttc-rating-4-b", "text": "Slightly important", "isCorrect": false, "ratingValue": 2, "boolValue": null },
+      { "id": "ttc-rating-4-c", "text": "Moderately important", "isCorrect": false, "ratingValue": 3, "boolValue": null },
+      { "id": "ttc-rating-4-d", "text": "Very important", "isCorrect": false, "ratingValue": 4, "boolValue": null },
+      { "id": "ttc-rating-4-e", "text": "Extremely important", "isCorrect": true, "ratingValue": 5, "boolValue": null }
+    ]
+  },
+  {
+    "id": "ttc-rating-5",
+    "text": "How important is avoiding alcohol when trying to conceive?",
+    "type": "starRating",
+    "stage": "ttc",
+    "explanation": "Alcohol can reduce fertility in both men and women and poses risks to early embryo development, often before pregnancy is detected.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "ttc-rating-5-a", "text": "Not important", "isCorrect": false, "ratingValue": 1, "boolValue": null },
+      { "id": "ttc-rating-5-b", "text": "Slightly important", "isCorrect": false, "ratingValue": 2, "boolValue": null },
+      { "id": "ttc-rating-5-c", "text": "Moderately important", "isCorrect": false, "ratingValue": 3, "boolValue": null },
+      { "id": "ttc-rating-5-d", "text": "Very important", "isCorrect": true, "ratingValue": 4, "boolValue": null },
+      { "id": "ttc-rating-5-e", "text": "Extremely important", "isCorrect": true, "ratingValue": 5, "boolValue": null }
+    ]
+  },
+  {
+    "id": "ttc-rating-6",
+    "text": "How important is regular exercise for fertility?",
+    "type": "starRating",
+    "stage": "ttc",
+    "explanation": "Moderate regular exercise supports hormonal balance and overall health, but excessive exercise can sometimes disrupt ovulation.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "ttc-rating-6-a", "text": "Not important", "isCorrect": false, "ratingValue": 1, "boolValue": null },
+      { "id": "ttc-rating-6-b", "text": "Slightly important", "isCorrect": false, "ratingValue": 2, "boolValue": null },
+      { "id": "ttc-rating-6-c", "text": "Moderately important", "isCorrect": true, "ratingValue": 3, "boolValue": null },
+      { "id": "ttc-rating-6-d", "text": "Very important", "isCorrect": true, "ratingValue": 4, "boolValue": null },
+      { "id": "ttc-rating-6-e", "text": "Extremely important", "isCorrect": false, "ratingValue": 5, "boolValue": null }
+    ]
+  },
+  {
+    "id": "ttc-rating-7",
+    "text": "How important is managing stress when trying to conceive?",
+    "type": "starRating",
+    "stage": "ttc",
+    "explanation": "Chronic stress can disrupt hormone balance and ovulation. Stress reduction techniques may improve fertility and well-being during conception attempts.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "ttc-rating-7-a", "text": "Not important", "isCorrect": false, "ratingValue": 1, "boolValue": null },
+      { "id": "ttc-rating-7-b", "text": "Slightly important", "isCorrect": false, "ratingValue": 2, "boolValue": null },
+      { "id": "ttc-rating-7-c", "text": "Moderately important", "isCorrect": false, "ratingValue": 3, "boolValue": null },
+      { "id": "ttc-rating-7-d", "text": "Very important", "isCorrect": true, "ratingValue": 4, "boolValue": null },
+      { "id": "ttc-rating-7-e", "text": "Extremely important", "isCorrect": true, "ratingValue": 5, "boolValue": null }
+    ]
+  },
+  {
+    "id": "ttc-rating-8",
+    "text": "How important is avoiding smoking when trying to conceive?",
+    "type": "starRating",
+    "stage": "ttc",
+    "explanation": "Smoking significantly reduces fertility in both men and women, damages eggs and sperm, and increases miscarriage risk.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "ttc-rating-8-a", "text": "Not important", "isCorrect": false, "ratingValue": 1, "boolValue": null },
+      { "id": "ttc-rating-8-b", "text": "Slightly important", "isCorrect": false, "ratingValue": 2, "boolValue": null },
+      { "id": "ttc-rating-8-c", "text": "Moderately important", "isCorrect": false, "ratingValue": 3, "boolValue": null },
+      { "id": "ttc-rating-8-d", "text": "Very important", "isCorrect": false, "ratingValue": 4, "boolValue": null },
+      { "id": "ttc-rating-8-e", "text": "Extremely important", "isCorrect": true, "ratingValue": 5, "boolValue": null }
+    ]
+  },
+  {
+    "id": "ttc-rating-9",
+    "text": "How important is proper nutrition when trying to conceive?",
+    "type": "starRating",
+    "stage": "ttc",
+    "explanation": "A balanced diet with adequate nutrients supports reproductive health, hormone balance, and the development of healthy eggs and sperm.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "ttc-rating-9-a", "text": "Not important", "isCorrect": false, "ratingValue": 1, "boolValue": null },
+      { "id": "ttc-rating-9-b", "text": "Slightly important", "isCorrect": false, "ratingValue": 2, "boolValue": null },
+      { "id": "ttc-rating-9-c", "text": "Moderately important", "isCorrect": false, "ratingValue": 3, "boolValue": null },
+      { "id": "ttc-rating-9-d", "text": "Very important", "isCorrect": true, "ratingValue": 4, "boolValue": null },
+      { "id": "ttc-rating-9-e", "text": "Extremely important", "isCorrect": true, "ratingValue": 5, "boolValue": null }
+    ]
+  },
+  {
+    "id": "ttc-rating-10",
+    "text": "How important is seeking medical advice if over 35 and trying to conceive for 6+ months?",
+    "type": "starRating",
+    "stage": "ttc",
+    "explanation": "Fertility declines with age, particularly after 35. Early evaluation can identify and address potential issues before further fertility decline.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "ttc-rating-10-a", "text": "Not important", "isCorrect": false, "ratingValue": 1, "boolValue": null },
+      { "id": "ttc-rating-10-b", "text": "Slightly important", "isCorrect": false, "ratingValue": 2, "boolValue": null },
+      { "id": "ttc-rating-10-c", "text": "Moderately important", "isCorrect": false, "ratingValue": 3, "boolValue": null },
+      { "id": "ttc-rating-10-d", "text": "Very important", "isCorrect": true, "ratingValue": 4, "boolValue": null },
+      { "id": "ttc-rating-10-e", "text": "Extremely important", "isCorrect": true, "ratingValue": 5, "boolValue": null }
+    ]
+  },
+  {
+    "id": "preg-single-1",
+    "text": "Which food should be avoided during pregnancy due to potential mercury content?",
+    "type": "singleSelect",
+    "stage": "pregnant",
+    "explanation": "High-mercury fish like swordfish, king mackerel, and shark can harm a developing baby's nervous system and should be avoided during pregnancy.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "preg-single-1-a", "text": "Salmon", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "preg-single-1-b", "text": "Swordfish", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "preg-single-1-c", "text": "Shrimp", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "preg-single-1-d", "text": "Cod", "isCorrect": false, "boolValue": null, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "preg-single-2",
+    "text": "What is the recommended daily amount of folic acid during pregnancy?",
+    "type": "singleSelect",
+    "stage": "pregnant",
+    "explanation": "The recommended daily intake of folic acid during pregnancy is 600 micrograms to help prevent neural tube defects.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "preg-single-2-a", "text": "200 micrograms", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "preg-single-2-b", "text": "400 micrograms", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "preg-single-2-c", "text": "600 micrograms", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "preg-single-2-d", "text": "1000 micrograms", "isCorrect": false, "boolValue": null, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "preg-single-3",
+    "text": "Which of these is NOT a common first trimester symptom?",
+    "type": "singleSelect",
+    "stage": "pregnant",
+    "explanation": "While nausea, fatigue, and frequent urination are common in the first trimester, fetal movement is typically not felt until the second trimester (around weeks 18-22).",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "preg-single-3-a", "text": "Morning sickness", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "preg-single-3-b", "text": "Fatigue", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "preg-single-3-c", "text": "Frequent urination", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "preg-single-3-d", "text": "Feeling fetal movement", "isCorrect": true, "boolValue": null, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "preg-single-4",
+    "text": "What is the term for the nausea and vomiting that can occur during pregnancy?",
+    "type": "singleSelect",
+    "stage": "pregnant",
+    "explanation": "Morning sickness, which can occur at any time of day, refers to the nausea and vomiting that many women experience during pregnancy, especially in the first trimester.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "preg-single-4-a", "text": "Morning sickness", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "preg-single-4-b", "text": "Pregnancy flu", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "preg-single-4-c", "text": "Gestational illness", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "preg-single-4-d", "text": "Maternal nausea", "isCorrect": false, "boolValue": null, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "preg-single-5",
+    "text": "When does the second trimester begin?",
+    "type": "singleSelect",
+    "stage": "pregnant",
+    "explanation": "The second trimester begins at week 14 and continues through week 27 of pregnancy.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "preg-single-5-a", "text": "Week 8", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "preg-single-5-b", "text": "Week 14", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "preg-single-5-c", "text": "Week 20", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "preg-single-5-d", "text": "Week 28", "isCorrect": false, "boolValue": null, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "preg-single-6",
+    "text": "What is the medical term for high blood pressure during pregnancy?",
+    "type": "singleSelect",
+    "stage": "pregnant",
+    "explanation": "Preeclampsia is a pregnancy complication characterized by high blood pressure and signs of damage to other organ systems, often the kidneys.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "preg-single-6-a", "text": "Gestational hypertension", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "preg-single-6-b", "text": "Preeclampsia", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "preg-single-6-c", "text": "Eclampsia", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "preg-single-6-d", "text": "Maternal hypertension", "isCorrect": false, "boolValue": null, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "preg-single-7",
+    "text": "What screening test is typically performed between weeks 24-28 of pregnancy?",
+    "type": "singleSelect",
+    "stage": "pregnant",
+    "explanation": "The glucose challenge test screens for gestational diabetes and is typically performed between weeks 24-28 of pregnancy.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "preg-single-7-a", "text": "Glucose challenge test", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "preg-single-7-b", "text": "Nuchal translucency scan", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "preg-single-7-c", "text": "Quad screen", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "preg-single-7-d", "text": "Group B strep test", "isCorrect": false, "boolValue": null, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "preg-single-8",
+    "text": "How many extra calories per day does a pregnant woman need during the second trimester?",
+    "type": "singleSelect",
+    "stage": "pregnant",
+    "explanation": "During the second trimester, pregnant women need approximately 340 extra calories per day compared to their pre-pregnancy diet.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "preg-single-8-a", "text": "No extra calories", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "preg-single-8-b", "text": "150-200 calories", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "preg-single-8-c", "text": "340-350 calories", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "preg-single-8-d", "text": "500-600 calories", "isCorrect": false, "boolValue": null, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "preg-single-9",
+    "text": "What term describes the false contractions that may occur during pregnancy?",
+    "type": "singleSelect",
+    "stage": "pregnant",
+    "explanation": "Braxton Hicks contractions are irregular, painless tightening of the uterus that can occur throughout pregnancy but are more noticeable in later stages.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "preg-single-9-a", "text": "Braxton Hicks contractions", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "preg-single-9-b", "text": "Labor contractions", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "preg-single-9-c", "text": "Prodromal labor", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "preg-single-9-d", "text": "Uterine spasms", "isCorrect": false, "boolValue": null, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "preg-single-10",
+    "text": "What is the average length of a full-term pregnancy?",
+    "type": "singleSelect",
+    "stage": "pregnant",
+    "explanation": "A full-term pregnancy typically lasts 40 weeks (or 280 days) from the first day of the last menstrual period.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "preg-single-10-a", "text": "36 weeks", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "preg-single-10-b", "text": "38 weeks", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "preg-single-10-c", "text": "40 weeks", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "preg-single-10-d", "text": "42 weeks", "isCorrect": false, "boolValue": null, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "preg-multi-1",
+    "text": "Which symptoms are common in the first trimester of pregnancy? (Select all that apply)",
+    "type": "multipleSelect",
+    "stage": "pregnant",
+    "explanation": "The first trimester often brings hormonal changes that can cause morning sickness, fatigue, breast tenderness, and frequent urination.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "preg-multi-1-a", "text": "Morning sickness", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "preg-multi-1-b", "text": "Fatigue", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "preg-multi-1-c", "text": "Frequent urination", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "preg-multi-1-d", "text": "Braxton Hicks contractions", "isCorrect": false, "boolValue": null, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "preg-multi-2",
+    "text": "Which foods are generally recommended to avoid during pregnancy? (Select all that apply)",
+    "type": "multipleSelect",
+    "stage": "pregnant",
+    "explanation": "To reduce risks of foodborne illness and other complications, pregnant women should avoid certain foods including raw fish, unpasteurized dairy, and high-mercury fish.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "preg-multi-2-a", "text": "Raw or undercooked fish (sushi)", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "preg-multi-2-b", "text": "Unpasteurized soft cheeses", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "preg-multi-2-c", "text": "High-mercury fish (shark, swordfish)", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "preg-multi-2-d", "text": "Cooked lean meats", "isCorrect": false, "boolValue": null, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "preg-multi-3",
+    "text": "Which of these are important nutrients during pregnancy? (Select all that apply)",
+    "type": "multipleSelect",
+    "stage": "pregnant",
+    "explanation": "Folate, iron, calcium, and DHA are particularly important during pregnancy for fetal development and maternal health.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "preg-multi-3-a", "text": "Folate/Folic Acid", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "preg-multi-3-b", "text": "Iron", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "preg-multi-3-c", "text": "Calcium", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "preg-multi-3-d", "text": "DHA (omega-3 fatty acid)", "isCorrect": true, "boolValue": null, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "preg-multi-4",
+    "text": "Which types of exercise are generally considered safe during pregnancy? (Select all that apply)",
+    "type": "multipleSelect",
+    "stage": "pregnant",
+    "explanation": "Low-impact activities like walking, swimming, and prenatal yoga are typically safe during pregnancy, while avoiding activities with high fall risk or impact.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "preg-multi-4-a", "text": "Walking", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "preg-multi-4-b", "text": "Swimming", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "preg-multi-4-c", "text": "Prenatal yoga", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "preg-multi-4-d", "text": "Contact sports", "isCorrect": false, "boolValue": null, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "preg-multi-5",
+    "text": "Which of these are common second trimester changes? (Select all that apply)",
+    "type": "multipleSelect",
+    "stage": "pregnant",
+    "explanation": "The second trimester often brings noticeable changes including a visible baby bump, feeling fetal movement, and improved energy levels.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "preg-multi-5-a", "text": "Visible baby bump", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "preg-multi-5-b", "text": "Feeling fetal movement", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "preg-multi-5-c", "text": "Improved energy levels", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "preg-multi-5-d", "text": "Less frequent urination", "isCorrect": false, "boolValue": null, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "preg-multi-6",
+    "text": "Which pregnancy complications require immediate medical attention? (Select all that apply)",
+    "type": "multipleSelect",
+    "stage": "pregnant",
+    "explanation": "Some symptoms require urgent medical care because they may indicate serious complications like preeclampsia, placental abruption, or preterm labor.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "preg-multi-6-a", "text": "Severe headache with vision changes", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "preg-multi-6-b", "text": "Heavy vaginal bleeding", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "preg-multi-6-c", "text": "Severe abdominal pain", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "preg-multi-6-d", "text": "Regular contractions before 37 weeks", "isCorrect": true, "boolValue": null, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "preg-multi-7",
+    "text": "Which of these help manage common pregnancy discomforts? (Select all that apply)",
+    "type": "multipleSelect",
+    "stage": "pregnant",
+    "explanation": "Various strategies can help manage common pregnancy discomforts, including small frequent meals, proper hydration, and supportive garments.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "preg-multi-7-a", "text": "Eating small, frequent meals for nausea", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "preg-multi-7-b", "text": "Using a pregnancy support belt for back pain", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "preg-multi-7-c", "text": "Staying well-hydrated for headaches", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "preg-multi-7-d", "text": "Elevating feet to reduce swelling", "isCorrect": true, "boolValue": null, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "preg-multi-8",
+    "text": "Which prenatal tests are commonly performed in the first trimester? (Select all that apply)",
+    "type": "multipleSelect",
+    "stage": "pregnant",
+    "explanation": "First trimester screening typically includes blood tests, ultrasounds, and genetic screening options to assess early pregnancy health and development.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "preg-multi-8-a", "text": "Dating ultrasound", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "preg-multi-8-b", "text": "NIPT (cell-free DNA screening)", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "preg-multi-8-c", "text": "Nuchal translucency ultrasound", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "preg-multi-8-d", "text": "Glucose challenge test", "isCorrect": false, "boolValue": null, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "preg-multi-9",
+    "text": "Which items are essential for a hospital labor bag? (Select all that apply)",
+    "type": "multipleSelect",
+    "stage": "pregnant",
+    "explanation": "A well-packed hospital bag includes essentials for labor, recovery, and the new baby, as well as comfort items and important documents.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "preg-multi-9-a", "text": "Photo ID and insurance information", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "preg-multi-9-b", "text": "Comfortable clothes for recovery", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "preg-multi-9-c", "text": "Infant car seat (installed)", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "preg-multi-9-d", "text": "Baby's going home outfit", "isCorrect": true, "boolValue": null, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "preg-multi-10",
+    "text": "Which of these can help prepare for breastfeeding during pregnancy? (Select all that apply)",
+    "type": "multipleSelect",
+    "stage": "pregnant",
+    "explanation": "Preparation for breastfeeding can include education, support resources, and practical items to help establish successful nursing after birth.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "preg-multi-10-a", "text": "Taking a breastfeeding class", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "preg-multi-10-b", "text": "Finding a lactation consultant", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "preg-multi-10-c", "text": "Purchasing nursing supplies", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "preg-multi-10-d", "text": "Nipple toughening exercises", "isCorrect": false, "boolValue": null, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "preg-switch-1",
+    "text": "Is it safe to exercise moderately during a normal, healthy pregnancy?",
+    "type": "switchQuestion",
+    "stage": "pregnant",
+    "explanation": "Moderate exercise is generally safe and beneficial during healthy pregnancies, with appropriate modifications as pregnancy progresses.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "preg-switch-1-a", "text": "Yes", "isCorrect": true, "boolValue": true, "ratingValue": null },
+      { "id": "preg-switch-1-b", "text": "No", "isCorrect": false, "boolValue": false, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "preg-switch-2",
+    "text": "Should pregnant women avoid all caffeine?",
+    "type": "switchQuestion",
+    "stage": "pregnant",
+    "explanation": "Moderate caffeine consumption (less than 200mg daily, about one 12oz cup of coffee) is generally considered safe during pregnancy.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "preg-switch-2-a", "text": "Yes", "isCorrect": false, "boolValue": true, "ratingValue": null },
+      { "id": "preg-switch-2-b", "text": "No", "isCorrect": true, "boolValue": false, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "preg-switch-3",
+    "text": "Is it normal to experience mood swings during pregnancy?",
+    "type": "switchQuestion",
+    "stage": "pregnant",
+    "explanation": "Hormonal changes during pregnancy commonly cause mood swings and emotional reactions that can be more intense than usual.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "preg-switch-3-a", "text": "Yes", "isCorrect": true, "boolValue": true, "ratingValue": null },
+      { "id": "preg-switch-3-b", "text": "No", "isCorrect": false, "boolValue": false, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "preg-switch-4",
+    "text": "Should pregnant women avoid hot tubs and saunas?",
+    "type": "switchQuestion",
+    "stage": "pregnant",
+    "explanation": "Hot tubs and saunas can raise body temperature to levels that may be harmful to the developing baby, especially in the first trimester.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "preg-switch-4-a", "text": "Yes", "isCorrect": true, "boolValue": true, "ratingValue": null },
+      { "id": "preg-switch-4-b", "text": "No", "isCorrect": false, "boolValue": false, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "preg-switch-5",
+    "text": "Is it safe to dye your hair during pregnancy?",
+    "type": "switchQuestion",
+    "stage": "pregnant",
+    "explanation": "Hair dyes are generally considered safe during pregnancy, though some women choose to wait until after the first trimester when organ development is complete.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "preg-switch-5-a", "text": "Yes", "isCorrect": true, "boolValue": true, "ratingValue": null },
+      { "id": "preg-switch-5-b", "text": "No", "isCorrect": false, "boolValue": false, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "preg-switch-6",
+    "text": "Is sleeping on your back recommended in the third trimester?",
+    "type": "switchQuestion",
+    "stage": "pregnant",
+    "explanation": "Sleeping on your back in late pregnancy can compress major blood vessels, potentially reducing blood flow to the baby and causing discomfort for the mother.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "preg-switch-6-a", "text": "Yes", "isCorrect": false, "boolValue": true, "ratingValue": null },
+      { "id": "preg-switch-6-b", "text": "No", "isCorrect": true, "boolValue": false, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "preg-switch-7",
+    "text": "Does the baby's heart start beating in the first trimester?",
+    "type": "switchQuestion",
+    "stage": "pregnant",
+    "explanation": "The baby's heart begins beating around 5-6 weeks of pregnancy and can often be detected by ultrasound by 6-7 weeks.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "preg-switch-7-a", "text": "Yes", "isCorrect": true, "boolValue": true, "ratingValue": null },
+      { "id": "preg-switch-7-b", "text": "No", "isCorrect": false, "boolValue": false, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "preg-switch-8",
+    "text": "Can prenatal vitamins replace a healthy diet during pregnancy?",
+    "type": "switchQuestion",
+    "stage": "pregnant",
+    "explanation": "While prenatal vitamins provide important nutrients, they cannot replace the complete nutrition from a balanced diet with whole foods.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "preg-switch-8-a", "text": "Yes", "isCorrect": false, "boolValue": true, "ratingValue": null },
+      { "id": "preg-switch-8-b", "text": "No", "isCorrect": true, "boolValue": false, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "preg-switch-9",
+    "text": "Should pregnant women avoid all medications?",
+    "type": "switchQuestion",
+    "stage": "pregnant",
+    "explanation": "While some medications should be avoided during pregnancy, others are safe and sometimes necessary. Always consult with a healthcare provider before taking or stopping any medication.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "preg-switch-9-a", "text": "Yes", "isCorrect": false, "boolValue": true, "ratingValue": null },
+      { "id": "preg-switch-9-b", "text": "No", "isCorrect": true, "boolValue": false, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "preg-switch-10",
+    "text": "Can stress during pregnancy harm the baby?",
+    "type": "switchQuestion",
+    "stage": "pregnant",
+    "explanation": "Chronic high stress may potentially affect pregnancy outcomes, though mild to moderate everyday stress is normal and unlikely to cause problems.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "preg-switch-10-a", "text": "Yes", "isCorrect": true, "boolValue": true, "ratingValue": null },
+      { "id": "preg-switch-10-b", "text": "No", "isCorrect": false, "boolValue": false, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "preg-rating-1",
+    "text": "How important is taking prenatal vitamins during pregnancy?",
+    "type": "starRating",
+    "stage": "pregnant",
+    "explanation": "Prenatal vitamins contain essential nutrients like folic acid, iron, and DHA that support healthy fetal development, especially of the neural tube and brain.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "preg-rating-1-a", "text": "Not important", "isCorrect": false, "ratingValue": 1, "boolValue": null },
+      { "id": "preg-rating-1-b", "text": "Slightly important", "isCorrect": false, "ratingValue": 2, "boolValue": null },
+      { "id": "preg-rating-1-c", "text": "Moderately important", "isCorrect": false, "ratingValue": 3, "boolValue": null },
+      { "id": "preg-rating-1-d", "text": "Very important", "isCorrect": false, "ratingValue": 4, "boolValue": null },
+      { "id": "preg-rating-1-e", "text": "Extremely important", "isCorrect": true, "ratingValue": 5, "boolValue": null }
+    ]
+  },
+  {
+    "id": "preg-rating-2",
+    "text": "How important is regular prenatal care during pregnancy?",
+    "type": "starRating",
+    "stage": "pregnant",
+    "explanation": "Regular prenatal checkups help monitor maternal and fetal health, identify potential issues early, and ensure appropriate care throughout pregnancy.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "preg-rating-2-a", "text": "Not important", "isCorrect": false, "ratingValue": 1, "boolValue": null },
+      { "id": "preg-rating-2-b", "text": "Slightly important", "isCorrect": false, "ratingValue": 2, "boolValue": null },
+      { "id": "preg-rating-2-c", "text": "Moderately important", "isCorrect": false, "ratingValue": 3, "boolValue": null },
+      { "id": "preg-rating-2-d", "text": "Very important", "isCorrect": false, "ratingValue": 4, "boolValue": null },
+      { "id": "preg-rating-2-e", "text": "Extremely important", "isCorrect": true, "ratingValue": 5, "boolValue": null }
+    ]
+  },
+  {
+    "id": "preg-rating-3",
+    "text": "How important is staying hydrated during pregnancy?",
+    "type": "starRating",
+    "stage": "pregnant",
+    "explanation": "Proper hydration helps form amniotic fluid, deliver nutrients, prevent UTIs and constipation, and support overall maternal health during pregnancy.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "preg-rating-3-a", "text": "Not important", "isCorrect": false, "ratingValue": 1, "boolValue": null },
+      { "id": "preg-rating-3-b", "text": "Slightly important", "isCorrect": false, "ratingValue": 2, "boolValue": null },
+      { "id": "preg-rating-3-c", "text": "Moderately important", "isCorrect": false, "ratingValue": 3, "boolValue": null },
+      { "id": "preg-rating-3-d", "text": "Very important", "isCorrect": true, "ratingValue": 4, "boolValue": null },
+      { "id": "preg-rating-3-e", "text": "Extremely important", "isCorrect": true, "ratingValue": 5, "boolValue": null }
+    ]
+  },
+  {
+    "id": "preg-rating-4",
+    "text": "How important is avoiding alcohol completely during pregnancy?",
+    "type": "starRating",
+    "stage": "pregnant",
+    "explanation": "No amount of alcohol has been proven safe during pregnancy, and it can cause fetal alcohol spectrum disorders affecting the baby's development.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "preg-rating-4-a", "text": "Not important", "isCorrect": false, "ratingValue": 1, "boolValue": null },
+      { "id": "preg-rating-4-b", "text": "Slightly important", "isCorrect": false, "ratingValue": 2, "boolValue": null },
+      { "id": "preg-rating-4-c", "text": "Moderately important", "isCorrect": false, "ratingValue": 3, "boolValue": null },
+      { "id": "preg-rating-4-d", "text": "Very important", "isCorrect": false, "ratingValue": 4, "boolValue": null },
+      { "id": "preg-rating-4-e", "text": "Extremely important", "isCorrect": true, "ratingValue": 5, "boolValue": null }
+    ]
+  },
+  {
+    "id": "preg-rating-5",
+    "text": "How important is quitting smoking during pregnancy?",
+    "type": "starRating",
+    "stage": "pregnant",
+    "explanation": "Smoking during pregnancy increases risks of miscarriage, preterm birth, low birth weight, birth defects, SIDS, and other complications.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "preg-rating-5-a", "text": "Not important", "isCorrect": false, "ratingValue": 1, "boolValue": null },
+      { "id": "preg-rating-5-b", "text": "Slightly important", "isCorrect": false, "ratingValue": 2, "boolValue": null },
+      { "id": "preg-rating-5-c", "text": "Moderately important", "isCorrect": false, "ratingValue": 3, "boolValue": null },
+      { "id": "preg-rating-5-d", "text": "Very important", "isCorrect": false, "ratingValue": 4, "boolValue": null },
+      { "id": "preg-rating-5-e", "text": "Extremely important", "isCorrect": true, "ratingValue": 5, "boolValue": null }
+    ]
+  },
+  {
+    "id": "preg-rating-6",
+    "text": "How important is proper nutrition during pregnancy?",
+    "type": "starRating",
+    "stage": "pregnant",
+    "explanation": "A balanced diet provides essential nutrients for fetal development and maternal health, affecting the baby's growth, organ development, and long-term health.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "preg-rating-6-a", "text": "Not important", "isCorrect": false, "ratingValue": 1, "boolValue": null },
+      { "id": "preg-rating-6-b", "text": "Slightly important", "isCorrect": false, "ratingValue": 2, "boolValue": null },
+      { "id": "preg-rating-6-c", "text": "Moderately important", "isCorrect": false, "ratingValue": 3, "boolValue": null },
+      { "id": "preg-rating-6-d", "text": "Very important", "isCorrect": false, "ratingValue": 4, "boolValue": null },
+      { "id": "preg-rating-6-e", "text": "Extremely important", "isCorrect": true, "ratingValue": 5, "boolValue": null }
+    ]
+  },
+  {
+    "id": "preg-rating-7",
+    "text": "How important is managing gestational diabetes if diagnosed?",
+    "type": "starRating",
+    "stage": "pregnant",
+    "explanation": "Uncontrolled gestational diabetes can lead to excess fetal growth, difficult delivery, preeclampsia, and health problems for both mother and baby.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "preg-rating-7-a", "text": "Not important", "isCorrect": false, "ratingValue": 1, "boolValue": null },
+      { "id": "preg-rating-7-b", "text": "Slightly important", "isCorrect": false, "ratingValue": 2, "boolValue": null },
+      { "id": "preg-rating-7-c", "text": "Moderately important", "isCorrect": false, "ratingValue": 3, "boolValue": null },
+      { "id": "preg-rating-7-d", "text": "Very important", "isCorrect": false, "ratingValue": 4, "boolValue": null },
+      { "id": "preg-rating-7-e", "text": "Extremely important", "isCorrect": true, "ratingValue": 5, "boolValue": null }
+    ]
+  },
+  {
+    "id": "preg-rating-8",
+    "text": "How important is pelvic floor exercise during pregnancy?",
+    "type": "starRating",
+    "stage": "pregnant",
+    "explanation": "Kegel exercises strengthen pelvic floor muscles that support growing pregnancy weight, aid in delivery, and help prevent incontinence and prolapse.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "preg-rating-8-a", "text": "Not important", "isCorrect": false, "ratingValue": 1, "boolValue": null },
+      { "id": "preg-rating-8-b", "text": "Slightly important", "isCorrect": false, "ratingValue": 2, "boolValue": null },
+      { "id": "preg-rating-8-c", "text": "Moderately important", "isCorrect": false, "ratingValue": 3, "boolValue": null },
+      { "id": "preg-rating-8-d", "text": "Very important", "isCorrect": true, "ratingValue": 4, "boolValue": null },
+      { "id": "preg-rating-8-e", "text": "Extremely important", "isCorrect": true, "ratingValue": 5, "boolValue": null }
+    ]
+  },
+  {
+    "id": "preg-rating-9",
+    "text": "How important is creating a birth plan during pregnancy?",
+    "type": "starRating",
+    "stage": "pregnant",
+    "explanation": "A birth plan helps communicate preferences to the healthcare team, though flexibility is important as birth can be unpredictable.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "preg-rating-9-a", "text": "Not important", "isCorrect": false, "ratingValue": 1, "boolValue": null },
+      { "id": "preg-rating-9-b", "text": "Slightly important", "isCorrect": false, "ratingValue": 2, "boolValue": null },
+      { "id": "preg-rating-9-c", "text": "Moderately important", "isCorrect": true, "ratingValue": 3, "boolValue": null },
+      { "id": "preg-rating-9-d", "text": "Very important", "isCorrect": true, "ratingValue": 4, "boolValue": null },
+      { "id": "preg-rating-9-e", "text": "Extremely important", "isCorrect": false, "ratingValue": 5, "boolValue": null }
+    ]
+  },
+  {
+    "id": "preg-rating-10",
+    "text": "How important is getting the Tdap vaccine during pregnancy?",
+    "type": "starRating",
+    "stage": "pregnant",
+    "explanation": "The Tdap vaccine given between 27-36 weeks helps protect newborns from pertussis (whooping cough) until they can be vaccinated themselves.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "preg-rating-10-a", "text": "Not important", "isCorrect": false, "ratingValue": 1, "boolValue": null },
+      { "id": "preg-rating-10-b", "text": "Slightly important", "isCorrect": false, "ratingValue": 2, "boolValue": null },
+      { "id": "preg-rating-10-c", "text": "Moderately important", "isCorrect": false, "ratingValue": 3, "boolValue": null },
+      { "id": "preg-rating-10-d", "text": "Very important", "isCorrect": true, "ratingValue": 4, "boolValue": null },
+      { "id": "preg-rating-10-e", "text": "Extremely important", "isCorrect": true, "ratingValue": 5, "boolValue": null }
+    ]
+  },
+  {
+    "id": "post-single-1",
+    "text": "What is the recommended position for putting a baby to sleep?",
+    "type": "singleSelect",
+    "stage": "postpartum",
+    "explanation": "The American Academy of Pediatrics (AAP) recommends placing babies on their backs to sleep for every sleep time, including naps and at night. This position has been shown to significantly reduce the risk of Sudden Infant Death Syndrome (SIDS). The 'Back to Sleep' (now 'Safe to Sleep') campaign, which began in 1994, has led to a dramatic decrease in SIDS rates. Once babies can roll from back to front and front to back on their own, they can be allowed to remain in the sleep position they assume, though you should still place them on their backs to start.",
+    "relatedFeature": null,
+    "answers": [
+      { "id": "post-single-1-a", "text": "On their back", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "post-single-1-b", "text": "On their stomach", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "post-single-1-c", "text": "On their side", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "post-single-1-d", "text": "It doesn't matter as long as they're comfortable", "isCorrect": false, "boolValue": null, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "post-single-2",
+    "text": "How often should newborns typically feed in the first few weeks?",
+    "type": "singleSelect",
+    "stage": "postpartum",
+    "explanation": "Newborns typically need to feed 8-12 times per day, which averages to every 2-3 hours, counting from the beginning of one feeding to the beginning of the next. This frequent feeding schedule is necessary because newborns have small stomachs (about the size of a cherry at birth, growing to the size of an egg by two weeks) and breast milk/formula is quickly digested. Night feedings are important and necessary during this time. Breastfed babies may feed more frequently than formula-fed babies because breast milk digests faster. Signs that a baby is getting enough include producing 6-8 wet diapers per day, having regular bowel movements, gaining weight appropriately, and seeming content after feedings.",
+    "relatedFeature": null,
+    "answers": [
+      { "id": "post-single-2-a", "text": "Every 2-3 hours", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "post-single-2-b", "text": "Every 4-5 hours", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "post-single-2-c", "text": "Every 6 hours", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "post-single-2-d", "text": "Only when they cry", "isCorrect": false, "boolValue": null, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "post-single-3",
+    "text": "When should a mother attend her postpartum check-up after delivery?",
+    "type": "singleSelect",
+    "stage": "postpartum",
+    "explanation": "The American College of Obstetricians and Gynecologists (ACOG) recommends that all women have contact with their healthcare provider within 3 weeks after delivery and receive a comprehensive postpartum visit within 12 weeks (ideally between 4-6 weeks) after delivery. This visit is crucial to assess physical recovery from childbirth, screen for postpartum depression, discuss contraception, review breastfeeding concerns, and address any other postpartum issues. Women who had pregnancy complications or have chronic conditions may need earlier or more frequent follow-up. Some providers now incorporate an early postpartum check at 1-2 weeks in addition to the traditional 6-week visit to better support new mothers during this critical transition period.",
+    "relatedFeature": null,
+    "answers": [
+      { "id": "post-single-3-a", "text": "4-6 weeks after delivery", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "post-single-3-b", "text": "2 weeks after delivery", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "post-single-3-c", "text": "3 months after delivery", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "post-single-3-d", "text": "Only if she experiences problems", "isCorrect": false, "boolValue": null, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "post-single-4",
+    "text": "Which of the following is NOT a normal part of postpartum recovery?",
+    "type": "singleSelect",
+    "stage": "postpartum",
+    "explanation": "While vaginal discharge (lochia), hair loss, night sweats, and breast engorgement are all normal parts of postpartum recovery, severe abdominal pain is not normal and could indicate complications such as infection, retained placental fragments, or other serious issues. Lochia typically starts heavy and red, gradually becoming lighter in flow and color over 2-6 weeks. Hair loss occurs due to hormonal changes and usually peaks around 3-4 months postpartum. Night sweats help the body eliminate excess fluid retained during pregnancy. Breast engorgement occurs when milk comes in around days 2-5. However, severe abdominal pain, especially if accompanied by fever, should prompt immediate medical attention.",
+    "relatedFeature": null,
+    "answers": [
+      { "id": "post-single-4-a", "text": "Vaginal discharge lasting several weeks", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "post-single-4-b", "text": "Hair loss", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "post-single-4-c", "text": "Severe abdominal pain", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "post-single-4-d", "text": "Night sweats", "isCorrect": false, "boolValue": null, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "post-single-5",
+    "text": "When is it typically safe for women to resume sexual activity after childbirth?",
+    "type": "singleSelect",
+    "stage": "postpartum",
+    "explanation": "Most healthcare providers recommend waiting until at least 4-6 weeks after delivery before resuming sexual activity. This timeframe allows for the cervix to close, postpartum bleeding to stop, and perineal tears or episiotomy sites to heal. The timing can vary based on the type of delivery (vaginal vs. cesarean) and individual healing. When resuming sexual activity, many women experience discomfort or decreased desire due to hormonal changes, fatigue, and physical recovery. Using water-based lubricant can help with vaginal dryness, which is common during the postpartum period, especially for breastfeeding mothers. It's important to discuss contraception with your healthcare provider before resuming sexual activity, as pregnancy can occur even before the return of menstruation.",
+    "relatedFeature": null,
+    "answers": [
+      { "id": "post-single-5-a", "text": "After 4-6 weeks, with healthcare provider clearance", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "post-single-5-b", "text": "As soon as bleeding stops", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "post-single-5-c", "text": "After 2 weeks", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "post-single-5-d", "text": "Only after the 6-month postpartum period ends", "isCorrect": false, "boolValue": null, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "post-single-6",
+    "text": "What is the recommended way to clean a newborn's umbilical cord stump?",
+    "type": "singleSelect",
+    "stage": "postpartum",
+    "explanation": "Current recommendations from the American Academy of Pediatrics suggest keeping the umbilical cord stump clean and dry until it falls off naturally, which typically occurs within 1-3 weeks after birth. There's no need to use alcohol or other antiseptic solutions unless specifically recommended by your healthcare provider. To care for the stump: keep the area dry (give sponge baths until the cord falls off), fold diapers down below the stump to prevent urine from soaking it, and check for signs of infection (redness, swelling, foul smell, discharge, or bleeding). Allow the cord to fall off naturally—don't pull on it. Contact your healthcare provider if you notice signs of infection or if the cord hasn't fallen off after three weeks.",
+    "relatedFeature": null,
+    "answers": [
+      { "id": "post-single-6-a", "text": "Keep it clean and dry, no special cleaning required", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "post-single-6-b", "text": "Clean it with alcohol at every diaper change", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "post-single-6-c", "text": "Apply antibiotic ointment daily", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "post-single-6-d", "text": "Wash it with soap and water frequently", "isCorrect": false, "boolValue": null, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "post-single-7",
+    "text": "Which vitamin supplement is typically recommended for exclusively breastfed babies?",
+    "type": "singleSelect",
+    "stage": "postpartum",
+    "explanation": "Exclusively breastfed infants should receive vitamin D supplementation (400 IU daily) beginning in the first few days of life to prevent rickets and vitamin D deficiency.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "post-single-7-a", "text": "Vitamin A", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "post-single-7-b", "text": "Vitamin C", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "post-single-7-c", "text": "Vitamin D", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "post-single-7-d", "text": "Iron", "isCorrect": false, "boolValue": null, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "post-single-8",
+    "text": "What is the recommended room temperature for a baby's sleep environment?",
+    "type": "singleSelect",
+    "stage": "postpartum",
+    "explanation": "A comfortable room temperature between 68-72°F (20-22.2°C) helps prevent overheating, which is a risk factor for SIDS.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "post-single-8-a", "text": "60-65°F (15.5-18.3°C)", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "post-single-8-b", "text": "68-72°F (20-22.2°C)", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "post-single-8-c", "text": "75-80°F (23.9-26.7°C)", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "post-single-8-d", "text": "82-85°F (27.8-29.4°C)", "isCorrect": false, "boolValue": null, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "post-single-9",
+    "text": "What is the 'fourth trimester'?",
+    "type": "singleSelect",
+    "stage": "postpartum",
+    "explanation": "The fourth trimester describes a baby's first three months of life when they're adjusting to life outside the womb and parents are adjusting to their new roles.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "post-single-9-a", "text": "The first three months of pregnancy", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "post-single-9-b", "text": "The last month of pregnancy", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "post-single-9-c", "text": "The first three months after birth", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "post-single-9-d", "text": "The period between birth and the 6-week check-up", "isCorrect": false, "boolValue": null, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "post-single-10",
+    "text": "How many wet diapers should a well-hydrated newborn (after day 5) typically have in 24 hours?",
+    "type": "singleSelect",
+    "stage": "postpartum",
+    "explanation": "Six or more wet diapers in 24 hours indicates adequate hydration in babies after the first week. Fewer may signal dehydration and requires medical attention.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "post-single-10-a", "text": "2-3 wet diapers", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "post-single-10-b", "text": "4-5 wet diapers", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "post-single-10-c", "text": "6 or more wet diapers", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "post-single-10-d", "text": "10-12 wet diapers", "isCorrect": false, "boolValue": null, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "post-multi-1",
+    "text": "Which of these are signs that a baby is getting enough breast milk?",
+    "type": "multipleSelect",
+    "stage": "postpartum",
+    "explanation": "Adequate breast milk intake is indicated by several signs: consistent weight gain after the initial weight loss period, at least 6-8 wet diapers per day after day 5, regular bowel movements, alertness during awake periods, and contentment after most feedings. The color of the baby's urine (pale yellow or clear) and stool patterns (transitioning from meconium to yellow, seedy stools) are also important indicators.",
+    "relatedFeature": null,
+    "answers": [
+      { "id": "post-multi-1-a", "text": "6-8 wet diapers per day after day 5", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "post-multi-1-b", "text": "Consistent weight gain after the initial weight loss period", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "post-multi-1-c", "text": "Sleeping through the night from birth", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "post-multi-1-d", "text": "Baby seems satisfied after feeding", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "post-multi-1-e", "text": "Steady weight gain", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "post-multi-1-f", "text": "You can hear the baby swallowing", "isCorrect": true, "boolValue": null, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "post-multi-2",
+    "text": "Which of these are safe sleep practices for infants?",
+    "type": "multipleSelect",
+    "stage": "postpartum",
+    "explanation": "Safe sleep practices include placing babies on their backs on a firm, flat surface with no loose bedding, pillows, or toys, in the same room as caregivers but on a separate surface.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "post-multi-2-a", "text": "Place baby on their back to sleep", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "post-multi-2-b", "text": "Use a firm sleep surface", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "post-multi-2-c", "text": "Keep soft objects out of the crib", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "post-multi-2-d", "text": "Share a sleep surface with parents", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "post-multi-2-e", "text": "Have baby sleep in parents' room on separate surface", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "post-multi-2-f", "text": "Use sleep positioners or wedges", "isCorrect": false, "boolValue": null, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "post-multi-3",
+    "text": "Which activities help promote bonding with your newborn? (Select all that apply)",
+    "type": "multipleSelect",
+    "stage": "postpartum",
+    "explanation": "Skin-to-skin contact, responsive care, and frequent interaction all help establish secure attachment between parents and infants.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "post-multi-3-a", "text": "Skin-to-skin contact", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "post-multi-3-b", "text": "Talking and singing to baby", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "post-multi-3-c", "text": "Responding to baby's cues", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "post-multi-3-d", "text": "Eye contact with baby", "isCorrect": true, "boolValue": null, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "post-multi-4",
+    "text": "Which self-care strategies are important for new mothers? (Select all that apply)",
+    "type": "multipleSelect",
+    "stage": "postpartum",
+    "explanation": "Prioritizing rest, nutrition, and support helps mothers recover physically and emotionally after childbirth.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "post-multi-4-a", "text": "Sleep when the baby sleeps", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "post-multi-4-b", "text": "Accept help from others", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "post-multi-4-c", "text": "Prioritize nutritious meals", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "post-multi-4-d", "text": "Try to do everything yourself", "isCorrect": false, "boolValue": null, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "post-multi-5",
+    "text": "Which physical changes are normal after childbirth? (Select all that apply)",
+    "type": "multipleSelect",
+    "stage": "postpartum",
+    "explanation": "The body undergoes many changes during recovery from childbirth as it returns to a non-pregnant state.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "post-multi-5-a", "text": "Vaginal discharge (lochia)", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "post-multi-5-b", "text": "After-birth contractions", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "post-multi-5-c", "text": "Hair loss", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "post-multi-5-d", "text": "Night sweats", "isCorrect": true, "boolValue": null, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "post-multi-6",
+    "text": "Which methods can help soothe a crying baby? (Select all that apply)",
+    "type": "multipleSelect",
+    "stage": "postpartum",
+    "explanation": "The 5 S's (swaddling, side/stomach position while holding, shushing, swinging, and sucking) can help calm crying babies by mimicking the womb environment.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "post-multi-6-a", "text": "Swaddling", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "post-multi-6-b", "text": "Gentle rocking or swinging motion", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "post-multi-6-c", "text": "White noise or shushing", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "post-multi-6-d", "text": "Offering a pacifier", "isCorrect": true, "boolValue": null, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "post-multi-7",
+    "text": "Which resources can help with breastfeeding challenges? (Select all that apply)",
+    "type": "multipleSelect",
+    "stage": "postpartum",
+    "explanation": "Professional support and resources are available to help mothers overcome breastfeeding challenges.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "post-multi-7-a", "text": "Lactation consultant", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "post-multi-7-b", "text": "La Leche League meetings", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "post-multi-7-c", "text": "Hospital breastfeeding clinic", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "post-multi-7-d", "text": "Online breastfeeding support groups", "isCorrect": true, "boolValue": null, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "post-multi-8",
+    "text": "Which items are considered safe for a baby's sleep environment? (Select all that apply)",
+    "type": "multipleSelect",
+    "stage": "postpartum",
+    "explanation": "A safe sleep environment includes a firm mattress in an approved crib or bassinet with no soft items or loose bedding.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "post-multi-8-a", "text": "Firm mattress", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "post-multi-8-b", "text": "Fitted sheet", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "post-multi-8-c", "text": "Crib bumpers", "isCorrect": false, "boolValue": null, "ratingValue": null },
+      { "id": "post-multi-8-d", "text": "Stuffed animals", "isCorrect": false, "boolValue": null, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "post-multi-9",
+    "text": "Which developmental milestones are typically reached by 3 months? (Select all that apply)",
+    "type": "multipleSelect",
+    "stage": "postpartum",
+    "explanation": "By 3 months, babies typically show social smiling, better head control, and beginning to track objects visually.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "post-multi-9-a", "text": "Social smiling", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "post-multi-9-b", "text": "Lifting head during tummy time", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "post-multi-9-c", "text": "Following objects with eyes", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "post-multi-9-d", "text": "Rolling over consistently", "isCorrect": false, "boolValue": null, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "post-multi-10",
+    "text": "Which postpartum symptoms warrant immediate medical attention? (Select all that apply)",
+    "type": "multipleSelect",
+    "stage": "postpartum",
+    "explanation": "Certain symptoms may indicate serious complications like infection, hemorrhage, or blood clots and require prompt medical care.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "post-multi-10-a", "text": "Heavy bleeding that soaks through a pad in an hour", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "post-multi-10-b", "text": "Fever over 100.4°F (38°C)", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "post-multi-10-c", "text": "Severe headache with vision changes", "isCorrect": true, "boolValue": null, "ratingValue": null },
+      { "id": "post-multi-10-d", "text": "Pain, redness or swelling in legs", "isCorrect": true, "boolValue": null, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "post-switch-1",
+    "text": "Is it normal to feel emotional ups and downs after giving birth?",
+    "type": "switchQuestion",
+    "stage": "postpartum",
+    "explanation": "Hormonal changes and the adjustment to new motherhood commonly cause emotional fluctuations known as the 'baby blues.' These typically resolve within two weeks.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "post-switch-1-a", "text": "Yes", "isCorrect": true, "boolValue": true, "ratingValue": null },
+      { "id": "post-switch-1-b", "text": "No", "isCorrect": false, "boolValue": false, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "post-switch-2",
+    "text": "Should you wake a sleeping baby to feed them?",
+    "type": "switchQuestion",
+    "stage": "postpartum",
+    "explanation": "Newborns should be fed every 2-3 hours, even if it means waking them, until they regain their birth weight and show consistent weight gain.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "post-switch-2-a", "text": "Yes", "isCorrect": true, "boolValue": true, "ratingValue": null },
+      { "id": "post-switch-2-b", "text": "No", "isCorrect": false, "boolValue": false, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "post-switch-3",
+    "text": "Can you get pregnant while breastfeeding?",
+    "type": "switchQuestion",
+    "stage": "postpartum",
+    "explanation": "While exclusive breastfeeding can delay fertility (lactational amenorrhea), it is not a reliable form of birth control. Women can ovulate before their first postpartum period.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "post-switch-3-a", "text": "Yes", "isCorrect": true, "boolValue": true, "ratingValue": null },
+      { "id": "post-switch-3-b", "text": "No", "isCorrect": false, "boolValue": false, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "post-switch-4",
+    "text": "Is it normal for a baby to lose weight in the first few days after birth?",
+    "type": "switchQuestion",
+    "stage": "postpartum",
+    "explanation": "Babies typically lose 5-10% of their birth weight in the first few days but should regain it by 10-14 days of age.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "post-switch-4-a", "text": "Yes", "isCorrect": true, "boolValue": true, "ratingValue": null },
+      { "id": "post-switch-4-b", "text": "No", "isCorrect": false, "boolValue": false, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "post-switch-5",
+    "text": "Should all babies receive tummy time?",
+    "type": "switchQuestion",
+    "stage": "postpartum",
+    "explanation": "Supervised tummy time helps babies develop neck and upper body strength and prevents flat spots on the head.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "post-switch-5-a", "text": "Yes", "isCorrect": true, "boolValue": true, "ratingValue": null },
+      { "id": "post-switch-5-b", "text": "No", "isCorrect": false, "boolValue": false, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "post-switch-6",
+    "text": "Is breastfeeding supposed to be painful?",
+    "type": "switchQuestion",
+    "stage": "postpartum",
+    "explanation": "While some initial tenderness is common, breastfeeding should not be painful. Persistent pain often indicates an issue with latch or positioning that needs correction.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "post-switch-6-a", "text": "Yes", "isCorrect": false, "boolValue": true, "ratingValue": null },
+      { "id": "post-switch-6-b", "text": "No", "isCorrect": true, "boolValue": false, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "post-switch-7",
+    "text": "Should a mother wait until her lochia stops before resuming exercise?",
+    "type": "switchQuestion",
+    "stage": "postpartum",
+    "explanation": "It's generally recommended to wait until postpartum bleeding (lochia) has stopped before resuming strenuous exercise to allow for proper healing.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "post-switch-7-a", "text": "Yes", "isCorrect": true, "boolValue": true, "ratingValue": null },
+      { "id": "post-switch-7-b", "text": "No", "isCorrect": false, "boolValue": false, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "post-switch-8",
+    "text": "Is postpartum depression only caused by hormonal changes?",
+    "type": "switchQuestion",
+    "stage": "postpartum",
+    "explanation": "While hormonal changes contribute, postpartum depression can also be influenced by sleep deprivation, previous mental health issues, relationship problems, and lack of support.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "post-switch-8-a", "text": "Yes", "isCorrect": false, "boolValue": true, "ratingValue": null },
+      { "id": "post-switch-8-b", "text": "No", "isCorrect": true, "boolValue": false, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "post-switch-9",
+    "text": "Do all babies need to be burped after feeding?",
+    "type": "switchQuestion",
+    "stage": "postpartum",
+    "explanation": "Most babies benefit from burping to release swallowed air and reduce discomfort, though some babies (especially breastfed) may not need it after every feeding.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "post-switch-9-a", "text": "Yes", "isCorrect": false, "boolValue": true, "ratingValue": null },
+      { "id": "post-switch-9-b", "text": "No", "isCorrect": true, "boolValue": false, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "post-switch-10",
+    "text": "Should you sterilize baby bottles before every use?",
+    "type": "switchQuestion",
+    "stage": "postpartum",
+    "explanation": "Bottles should be sterilized before first use and regularly for the first few months or if baby is premature/ill. Otherwise, thorough washing is sufficient.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "post-switch-10-a", "text": "Yes", "isCorrect": false, "boolValue": true, "ratingValue": null },
+      { "id": "post-switch-10-b", "text": "No", "isCorrect": true, "boolValue": false, "ratingValue": null }
+    ]
+  },
+  {
+    "id": "post-star-1",
+    "text": "How confident are you in recognizing signs of adequate hydration in your baby?",
+    "type": "starRating",
+    "stage": "postpartum",
+    "explanation": "Signs include 6+ wet diapers daily, pale yellow urine, moist lips and mouth, alert behavior when awake, and tears when crying.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "post-star-1-a", "text": "1 - Not confident at all", "isCorrect": null, "boolValue": null, "ratingValue": 1 },
+      { "id": "post-star-1-b", "text": "2 - Slightly confident", "isCorrect": null, "boolValue": null, "ratingValue": 2 },
+      { "id": "post-star-1-c", "text": "3 - Moderately confident", "isCorrect": null, "boolValue": null, "ratingValue": 3 },
+      { "id": "post-star-1-d", "text": "4 - Very confident", "isCorrect": null, "boolValue": null, "ratingValue": 4 },
+      { "id": "post-star-1-e", "text": "5 - Extremely confident", "isCorrect": null, "boolValue": null, "ratingValue": 5 }
+    ]
+  },
+  {
+    "id": "post-star-2",
+    "text": "How comfortable are you with bathing your newborn?",
+    "type": "starRating",
+    "stage": "postpartum",
+    "explanation": "Newborns need sponge baths until umbilical cord falls off, then gentle bathing 2-3 times weekly in a warm room with proper support.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "post-star-2-a", "text": "1 - Not comfortable at all", "isCorrect": null, "boolValue": null, "ratingValue": 1 },
+      { "id": "post-star-2-b", "text": "2 - Slightly comfortable", "isCorrect": null, "boolValue": null, "ratingValue": 2 },
+      { "id": "post-star-2-c", "text": "3 - Moderately comfortable", "isCorrect": null, "boolValue": null, "ratingValue": 3 },
+      { "id": "post-star-2-d", "text": "4 - Very comfortable", "isCorrect": null, "boolValue": null, "ratingValue": 4 },
+      { "id": "post-star-2-e", "text": "5 - Extremely comfortable", "isCorrect": null, "boolValue": null, "ratingValue": 5 }
+    ]
+  },
+  {
+    "id": "post-star-3",
+    "text": "How prepared do you feel to adjust to changes in your relationship with your partner?",
+    "type": "starRating",
+    "stage": "postpartum",
+    "explanation": "New parenthood often affects intimacy, communication, and roles. Open discussion, shared responsibilities, and dedicated couple time help maintain connection.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "post-star-3-a", "text": "1 - Not prepared at all", "isCorrect": null, "boolValue": null, "ratingValue": 1 },
+      { "id": "post-star-3-b", "text": "2 - Slightly prepared", "isCorrect": null, "boolValue": null, "ratingValue": 2 },
+      { "id": "post-star-3-c", "text": "3 - Moderately prepared", "isCorrect": null, "boolValue": null, "ratingValue": 3 },
+      { "id": "post-star-3-d", "text": "4 - Very prepared", "isCorrect": null, "boolValue": null, "ratingValue": 4 },
+      { "id": "post-star-3-e", "text": "5 - Extremely prepared", "isCorrect": null, "boolValue": null, "ratingValue": 5 }
+    ]
+  },
+  {
+    "id": "post-star-4",
+    "text": "How confident are you in interpreting your baby's different cries?",
+    "type": "starRating",
+    "stage": "postpartum",
+    "explanation": "Babies communicate through different cry patterns for hunger, tiredness, discomfort, overstimulation, and need for connection. Learning these cues helps meet their needs promptly.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "post-star-4-a", "text": "1 - Not confident at all", "isCorrect": null, "boolValue": null, "ratingValue": 1 },
+      { "id": "post-star-4-b", "text": "2 - Slightly confident", "isCorrect": null, "boolValue": null, "ratingValue": 2 },
+      { "id": "post-star-4-c", "text": "3 - Moderately confident", "isCorrect": null, "boolValue": null, "ratingValue": 3 },
+      { "id": "post-star-4-d", "text": "4 - Very confident", "isCorrect": null, "boolValue": null, "ratingValue": 4 },
+      { "id": "post-star-4-e", "text": "5 - Extremely confident", "isCorrect": null, "boolValue": null, "ratingValue": 5 }
+    ]
+  },
+  {
+    "id": "post-star-5",
+    "text": "How knowledgeable do you feel about infant sleep safety?",
+    "type": "starRating",
+    "stage": "postpartum",
+    "explanation": "Safe sleep practices include back sleeping, firm mattress, no loose bedding/toys, room-sharing without bed-sharing, and avoiding overheating.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "post-star-5-a", "text": "1 - Not knowledgeable at all", "isCorrect": null, "boolValue": null, "ratingValue": 1 },
+      { "id": "post-star-5-b", "text": "2 - Slightly knowledgeable", "isCorrect": null, "boolValue": null, "ratingValue": 2 },
+      { "id": "post-star-5-c", "text": "3 - Moderately knowledgeable", "isCorrect": null, "boolValue": null, "ratingValue": 3 },
+      { "id": "post-star-5-d", "text": "4 - Very knowledgeable", "isCorrect": null, "boolValue": null, "ratingValue": 4 },
+      { "id": "post-star-5-e", "text": "5 - Extremely knowledgeable", "isCorrect": null, "boolValue": null, "ratingValue": 5 }
+    ]
+  },
+  {
+    "id": "post-star-6",
+    "text": "How prepared do you feel to manage your postpartum healing while caring for your newborn?",
+    "type": "starRating",
+    "stage": "postpartum",
+    "explanation": "Postpartum recovery involves physical healing, hormonal changes, and emotional adjustment. Self-care, pelvic floor exercises, and accepting help are essential.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "post-star-6-a", "text": "1 - Not prepared at all", "isCorrect": null, "boolValue": null, "ratingValue": 1 },
+      { "id": "post-star-6-b", "text": "2 - Slightly prepared", "isCorrect": null, "boolValue": null, "ratingValue": 2 },
+      { "id": "post-star-6-c", "text": "3 - Moderately prepared", "isCorrect": null, "boolValue": null, "ratingValue": 3 },
+      { "id": "post-star-6-d", "text": "4 - Very prepared", "isCorrect": null, "boolValue": null, "ratingValue": 4 },
+      { "id": "post-star-6-e", "text": "5 - Extremely prepared", "isCorrect": null, "boolValue": null, "ratingValue": 5 }
+    ]
+  },
+  {
+    "id": "post-star-7",
+    "text": "How confident are you in establishing and maintaining a feeding routine?",
+    "type": "starRating",
+    "stage": "postpartum",
+    "explanation": "Newborns feed 8-12 times daily. Responsive feeding based on hunger cues rather than strict schedules supports healthy development and bonding.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "post-star-7-a", "text": "1 - Not confident at all", "isCorrect": null, "boolValue": null, "ratingValue": 1 },
+      { "id": "post-star-7-b", "text": "2 - Slightly confident", "isCorrect": null, "boolValue": null, "ratingValue": 2 },
+      { "id": "post-star-7-c", "text": "3 - Moderately confident", "isCorrect": null, "boolValue": null, "ratingValue": 3 },
+      { "id": "post-star-7-d", "text": "4 - Very confident", "isCorrect": null, "boolValue": null, "ratingValue": 4 },
+      { "id": "post-star-7-e", "text": "5 - Extremely confident", "isCorrect": null, "boolValue": null, "ratingValue": 5 }
+    ]
+  },
+  {
+    "id": "post-star-8",
+    "text": "How comfortable are you discussing mental health concerns with your healthcare provider?",
+    "type": "starRating",
+    "stage": "postpartum",
+    "explanation": "Open communication about mood changes helps identify postpartum depression/anxiety early. Healthcare providers can offer appropriate support and treatment.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "post-star-8-a", "text": "1 - Not comfortable at all", "isCorrect": null, "boolValue": null, "ratingValue": 1 },
+      { "id": "post-star-8-b", "text": "2 - Slightly comfortable", "isCorrect": null, "boolValue": null, "ratingValue": 2 },
+      { "id": "post-star-8-c", "text": "3 - Moderately comfortable", "isCorrect": null, "boolValue": null, "ratingValue": 3 },
+      { "id": "post-star-8-d", "text": "4 - Very comfortable", "isCorrect": null, "boolValue": null, "ratingValue": 4 },
+      { "id": "post-star-8-e", "text": "5 - Extremely comfortable", "isCorrect": null, "boolValue": null, "ratingValue": 5 }
+    ]
+  },
+  {
+    "id": "post-star-9",
+    "text": "How supported do you feel in your parenting journey?",
+    "type": "starRating",
+    "stage": "postpartum",
+    "explanation": "A support network of family, friends, and professionals helps manage the challenges of early parenthood. Support groups, online communities, and postpartum doulas can be valuable resources.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "post-star-9-a", "text": "1 - Not supported at all", "isCorrect": null, "boolValue": null, "ratingValue": 1 },
+      { "id": "post-star-9-b", "text": "2 - Slightly supported", "isCorrect": null, "boolValue": null, "ratingValue": 2 },
+      { "id": "post-star-9-c", "text": "3 - Moderately supported", "isCorrect": null, "boolValue": null, "ratingValue": 3 },
+      { "id": "post-star-9-d", "text": "4 - Very supported", "isCorrect": null, "boolValue": null, "ratingValue": 4 },
+      { "id": "post-star-9-e", "text": "5 - Extremely supported", "isCorrect": null, "boolValue": null, "ratingValue": 5 }
+    ]
+  },
+  {
+    "id": "post-star-10",
+    "text": "How knowledgeable do you feel about your baby's developmental milestones in the first year?",
+    "type": "starRating",
+    "stage": "postpartum",
+    "explanation": "Key milestones include social smiling (2 months), rolling over (4-6 months), sitting unsupported (6-8 months), and first words (around 12 months). Each baby develops at their own pace.",
+    "relatedFeature": null,
+    "maxRating": 5,
+    "answers": [
+      { "id": "post-star-10-a", "text": "1 - Not knowledgeable at all", "isCorrect": null, "boolValue": null, "ratingValue": 1 },
+      { "id": "post-star-10-b", "text": "2 - Slightly knowledgeable", "isCorrect": null, "boolValue": null, "ratingValue": 2 },
+      { "id": "post-star-10-c", "text": "3 - Moderately knowledgeable", "isCorrect": null, "boolValue": null, "ratingValue": 3 },
+      { "id": "post-star-10-d", "text": "4 - Very knowledgeable", "isCorrect": null, "boolValue": null, "ratingValue": 4 },
+      { "id": "post-star-10-e", "text": "5 - Extremely knowledgeable", "isCorrect": null, "boolValue": null, "ratingValue": 5 }
+    ]
+  },
+  {
+  }
+]
